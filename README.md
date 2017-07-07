@@ -39,7 +39,7 @@ sudo n 6.9.2
 Install from source:
 ```bash
 # Clone this repository
-git clone https://github.com/blockpool-io/BPL-desktop
+git clone -b testnet https://github.com/blockpool-io/BPL-desktop
 # Go into the repository
 cd BPL-desktop
 # Install dependencies 
