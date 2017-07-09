@@ -1,8 +1,15 @@
 {
+<<<<<<< Updated upstream
   "name": "ArkClient",
   "version": "1.1.0",
   "productName": "ArkClient",
   "description": "Ark Desktop",
+=======
+  "name": "bplclient",
+  "version": "1.2.2",
+  "productName": "Blockpool Desktop",
+  "description": "Blockpool Desktop",
+>>>>>>> Stashed changes
   "main": "main.js",
   "scripts": {
     "electron": "electron --version",
@@ -17,7 +24,11 @@
   },
   "repository": {
     "type": "git",
+<<<<<<< Updated upstream
     "url": "git+https://github.com/fix/ark-desktop.git"
+=======
+    "url": "git+https://github.com/blockpool-io/BPL-desktop.git"
+>>>>>>> Stashed changes
   },
   "keywords": [
     "Electron",

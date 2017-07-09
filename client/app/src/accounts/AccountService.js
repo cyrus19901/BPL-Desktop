@@ -1,7 +1,7 @@
 (function(){
   'use strict';
 
-  angular.module('arkclient')
+  angular.module('bplclient')
          .service('accountService', ['$q', '$http', 'networkService', 'storageService', 'gettextCatalog', AccountService]);
 
   /**
@@ -14,7 +14,11 @@
    */
   function AccountService($q, $http, networkService, storageService, gettextCatalog){
 
+<<<<<<< Updated upstream
     var ark=require('arkjs');
+=======
+    var bpl=require('bpljs');
+>>>>>>> Stashed changes
 
     var TxTypes = {
       0:"Send Ark",
