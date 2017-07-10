@@ -12,8 +12,8 @@ let mainWindow
 function createWindow () {
   // Create the browser window.
   let {width,height} = electron.screen.getPrimaryDisplay().workAreaSize
-  mainWindow = new BrowserWindow({width: width-100, height: height-100, center:true, icon: __dirname + "/client/ark.png", resizable:true, frame:true, show:false})
-  mainWindow.setContentProtection(true);
+  mainWindow = new BrowserWindow({width: width-100, height: height-100, center:true, icon: __dirname + "/client/app.assets/img/image/BPL-token-notext.png", resizable:true, frame:true, show:false})
+  mainWindow.setContentProtection(false);
   // and load the index.html of the app.
   mainWindow.loadURL(`file://${__dirname}/client/app/index.html`)
   mainWindow.once('ready-to-show', () => {
