@@ -1,7 +1,7 @@
 (function(){
   'use strict';
 
-  angular.module('arkclient').controller('scannerController', ['$scope', '$interval', '$timeout', '$window', ScannerController]);
+  angular.module('bplclient').controller('scannerController', ['$scope', '$interval', '$timeout', '$window', ScannerController]);
 
   function ScannerController($scope, $interval, $timeout, $window) {
 

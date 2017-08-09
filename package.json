@@ -1,5 +1,5 @@
 {
-  "name": "BlockpoolClient",
+  "name": "bplclient",
   "version": "1.2.2",
   "productName": "Blockpool Desktop",
   "description": "Blockpool Desktop",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://ggithub.com/blockpool-io/BPL-desktop.git"
+    "url": "git+https://github.com/blockpool-io/BPL-desktop.git"
   },
   "keywords": [
     "Electron",
@@ -49,10 +49,11 @@
     "grunt-angular-gettext": "^2.2.3",
     "grunt-contrib-jshint": "~0.10.0",
     "grunt-contrib-nodeunit": "~0.4.1",
-    "grunt-contrib-uglify": "~0.5.0"
+    "grunt-contrib-uglify": "~0.5.0",
+    "node-webkit-builder": "^1.0.11"
   },
   "build": {
-    "appId": "com.arkwallet.liteclient",
+    "appId": "com.bplwallet.liteclient",
     "mac": {
       "category": "finance"
     },

@@ -1,7 +1,7 @@
 (function(){
   'use strict';
 
-  angular.module('arkclient').directive('qrScanner', ['$rootScope', '$timeout', '$mdDialog', '$mdToast', qrScanner]);
+  angular.module('bplclient').directive('qrScanner', ['$rootScope', '$timeout', '$mdDialog', '$mdToast', qrScanner]);
 
   function qrScanner($rootScope, $timeout, $mdDialog, $mdToast) {
 

@@ -1,6 +1,6 @@
 node_modules
 *.zip
-Ark\ Client-*
+Bpl\ Client-*
 .tags
 dist/
 npm-debug.log

@@ -1,7 +1,7 @@
 (function(){
   'use strict';
 
-  angular.module('arkclient')
+  angular.module('bplclient')
   .directive('validAmount', [
     function() {
       return {

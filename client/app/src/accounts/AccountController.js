@@ -1,6 +1,6 @@
 (function(){
   angular
-       .module('arkclient')
+       .module('bplclient')
        .controller('AccountController', [
           'accountService', 'networkService', 'storageService', 'changerService', '$mdToast', '$mdSidenav', '$mdBottomSheet', '$timeout', '$interval', '$log', '$mdDialog', '$scope', '$mdMedia', 'gettextCatalog',
           AccountController
@@ -255,11 +255,11 @@
     }
 
     self.getMarketInfo=function(symbol){
-      changerService.getMarketInfo(symbol,"ark_ARK").then(function(answer){
+      changerService.getMarketInfo(symbol,"bpl_BPL").then(function(answer){
         self.buycoin=answer;
       });
 
-      changerService.getMarketInfo("ark_ARK",symbol).then(function(answer){
+      changerService.getMarketInfo("bpl_BPL",symbol).then(function(answer){
         self.sellcoin=answer;
       });
     };
@@ -269,12 +269,12 @@
     self.buy=function(){
       if(self.exchangeEmail) storageService.set("email",self.exchangeEmail);
       if(self.selectedCoin) storageService.set("selectedCoin",self.selectedCoin);
-      changerService.getMarketInfo(self.selectedCoin,"ark_ARK",self.buyAmount/self.buycoin.rate).then(function(rate){
+      changerService.getMarketInfo(self.selectedCoin,"bpl_BPL",self.buyAmount/self.buycoin.rate).then(function(rate){
         var amount = self.buyAmount/rate.rate;
         if(self.selectedCoin.split("_")[1]=="USD"){
           amount=parseFloat(amount.toFixed(2));
         }
-        changerService.makeExchange(self.exchangeEmail, amount, self.selectedCoin, "ark_ARK", self.selected.address).then(function(resp){
+        changerService.makeExchange(self.exchangeEmail, amount, self.selectedCoin, "bpl_BPL", self.selected.address).then(function(resp){
           self.exchangeBuy=resp;
           self.exchangeBuy.expirationPeriod=self.exchangeBuy.expiration-new Date().getTime()/1000;
           self.exchangeBuy.expirationProgress=0;
@@ -327,7 +327,7 @@
 
     self.sell=function(){
       if(self.exchangeEmail) storageService.set("email",self.exchangeEmail);
-      changerService.makeExchange(self.exchangeEmail, self.sellAmount, "ark_ARK", self.selectedCoin, self.recipientAddress).then(function(resp){
+      changerService.makeExchange(self.exchangeEmail, self.sellAmount, "bpl_BPL", self.selectedCoin, self.recipientAddress).then(function(resp){
         accountService.createTransaction(0,
           {
             fromAddress: self.selected.address,

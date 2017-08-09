@@ -1,7 +1,7 @@
 (function(){
   'use strict';
 
-  angular.module('arkclient')
+  angular.module('bplclient')
          .service('accountService', ['$q', '$http', 'networkService', 'storageService', 'gettextCatalog', AccountService]);
 
   /**
@@ -14,7 +14,9 @@
    */
   function AccountService($q, $http, networkService, storageService, gettextCatalog){
 
-    var bpl=require('arkjs');
+
+  var bpl=require('bpljs');
+
 
     var TxTypes = {
       0:"Send Bpl",
@@ -395,8 +397,8 @@
 
       else if(type==2){ //delegate creation
         var account=getAccount(config.fromAddress);
-        if(account.balance<2500000000){
-          deferred.reject(gettextCatalog.getString("Not enough BPL on your account ")+config.fromAddress+", "+gettextCatalog.getString("you need at least 25 BPL to register delegate"));
+        if(account.balance<1000000000){
+          deferred.reject(gettextCatalog.getString("Not enough BPL on your account ")+config.fromAddress+", "+gettextCatalog.getString("you need at least 10 BPL to register delegate"));
           return deferred.promise;
         }
         try{
