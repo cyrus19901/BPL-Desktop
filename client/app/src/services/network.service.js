@@ -99,7 +99,7 @@
         n = {
           mainnet: { // so far same as testnet
             nethash: 'b1123a193767577e1256ca6a2bf0bb5d21ac0b8c60a13bf1d98611aee708002d',
-            peerseed:'http://165.227.239.66:9032',
+            peerseed:'http://127.0.0.1:9032',
             forcepeer: false,
             token: 'WBX',
             symbol: 'W',
@@ -115,12 +115,12 @@
           },
           testnet: {
             nethash: 'b1123a193767577e1256ca6a2bf0bb5d21ac0b8c60a13bf1d98611aee708002d',
-            peerseed: 'http://165.227.239.66:9032',
+            peerseed: 'http://127.0.0.1:9032',
             token: 'WBX',
             symbol: 'TW',
             version: 73,
             slip44: 1, // all coin testnet
-            explorer: 'http://165.227.239.66:9032',
+            explorer: 'http://165.227.239.66:9031',
             background: 'url(assets/images/images/wooba1.png) no-repeat ',
             theme: 'default',
             themeDark: false
@@ -153,7 +153,7 @@
 
         peer.market = lastPrice.market
         peer.market.lastUpdate = lastPrice.date
-        peer.market.isOffline = true
+        peer.market.isOffline = false
       }
 
       if (!network.cmcTicker && network.token !== 'WBX') {

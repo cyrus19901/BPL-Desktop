@@ -262,7 +262,7 @@ span.name {
 .footer,
 .footer a {
   transition: color linear 0.2s;
-  color: black;
+  color: white;
 }
 .footer a {
   text-decoration: underline;
