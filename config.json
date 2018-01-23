@@ -1,0 +1,9 @@
+{
+  "delegates": 51,
+  "interval": 15,
+  "networkVersion": 73,
+  "ticker": "W",
+  "testnet": "b1123a193767577e1256ca6a2bf0bb5d21ac0b8c60a13bf1d98611aee708002d",
+  "mainnet": "7bfb2815effb43592ccdd4fd0f657c082a7b318eed12f6396cc174d8578293c3",
+  "symbol": "WBX"
+}

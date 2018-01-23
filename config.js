@@ -9,7 +9,7 @@ config.host = '0.0.0.0'; // Interface to listen on, 0.0.0.0 to listen on all ava
 config.port = 9033;      // Port to listen on
 
 //  node
-config.node.host = '0.0.0.0';
+config.node.host = '165.227.224.117';
 config.node.port = 9032;
 
 // FreeGeoIP server

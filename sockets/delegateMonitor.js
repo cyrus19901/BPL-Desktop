@@ -5,7 +5,7 @@ var api = require('../lib/api'),
     _ = require('underscore'),
     async = require('async'),
     request = require('request');
-
+var config = require('../config.json');
 module.exports = function (app, connectionHandler, socket) {
     var delegates  = new api.delegates(app),
         connection = new connectionHandler('Delegate Monitor:', socket, this),
@@ -309,7 +309,7 @@ module.exports = function (app, connectionHandler, socket) {
     };
 
     var getRound = function (height) {
-        return Math.floor(height / 51) + (height % 51 > 0 ? 1 : 0);
+        return Math.floor(height / config.delegates) + (height % config.delegates > 0 ? 1 : 0);
     };
 
     var getRoundDelegates = function (delegates, height) {

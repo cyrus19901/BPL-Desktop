@@ -1,8 +1,9 @@
 'use strict';
 
+var config = require('../config.json');
 var Header = function ($rootScope) {
     $rootScope.currency = {
-      symbol: 'WBX'
+      symbol: config.symbol
     };
 
     this.updateBlockStatus = function (res) {
@@ -24,9 +25,9 @@ var Header = function ($rootScope) {
         }
 
         // When ticker for user-stored currency is not available - switch to WBX temporarly
-        if ($rootScope.currency.symbol !== 'WBX' && (!$rootScope.currency.tickers || !$rootScope.currency.tickers.WBX || !$rootScope.currency.tickers.WBX[$rootScope.currency.symbol])) {
-            console.log ('Currency ' + $rootScope.currency.symbol + ' not available, fallback to WBX');
-            $rootScope.currency.symbol = 'WBX';
+        if ($rootScope.currency.symbol !== config.symbol && (!$rootScope.currency.tickers || !$rootScope.currency.tickers.$config.symbol || !$rootScope.currency.tickers.$config.symbol[$rootScope.currency.symbol])) {
+            console.log ('Currency ' + $rootScope.currency.symbol + ' not available, fallback to ' + config.symbol);
+            $rootScope.currency.symbol = config.symbol;
         }
     };
 

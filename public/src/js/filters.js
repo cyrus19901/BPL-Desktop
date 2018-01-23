@@ -1,4 +1,5 @@
 'use strict';
+var config = require('../config.json');
 
 function smallId(fullId) {
   return fullId.slice(0, 5) + '...' + fullId.slice(-5)
@@ -83,9 +84,9 @@ angular.module('explorer')
   })
   .filter('nethash', function () {
       return function (nethash) {
-          if (nethash === 'b1123a193767577e1256ca6a2bf0bb5d21ac0b8c60a13bf1d98611aee708002d') {
+          if (nethash === config.testnet) {
               return 'Testnet';
-          } else if (nethash === '7bfb2815effb43592ccdd4fd0f657c082a7b318eed12f6396cc174d8578293c3')  {
+          } else if (nethash === config.mainnet)  {
               return 'Mainnet';
           } else {
               return 'Local';
@@ -97,7 +98,7 @@ angular.module('explorer')
           if (isNaN(height)) {
               return 0;
           } else {
-              return Math.floor(height / 51) + (height % 51 > 0 ? 1 : 0);
+              return Math.floor(height / config.delegates) + (height % config.delegates > 0 ? 1 : 0);
           }
       };
   })
