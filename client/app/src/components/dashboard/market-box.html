@@ -4,9 +4,11 @@
       <div>
         <b><translate>Price</translate></b>
       </div>
-
+<!--       <span>{{$ctrl.ul.currency.name}}</span>
+      <span>{{$ctrl.ul..name}}</span> -->
       <span class="md-secondary">{{$ctrl.ul.connectedPeer.market.price[$ctrl.ul.currency.name] | formatCurrency:$ctrl.ul}}</span>
     </md-list-item>
+    <!-- {{$ctrl.ul.connectedPeer.market.price[$ctrl.ul.currency.name] | formatCurrency: $ctrl.ul}} -->
     <md-list-item>
       <b translate>Change 1h/24h/7d</b>
       <span class="md-secondary">
@@ -16,7 +18,7 @@
       </span>
     </md-list-item>
     <md-list-item>
-      <b translate>Market Cap.</b> <span class="md-secondary">{{$ctrl.ul.connectedPeer.market.available_supply | amountToCurrency:$ctrl | formatCurrency:$ctrl.ul}}</span>
+      <b translate>Market Cap.</b> <span class="md-secondary">{{$ctrl.ul.connectedPeer.market.available_supply}}</span>
     </md-list-item>
   </md-list>
 </md-content>

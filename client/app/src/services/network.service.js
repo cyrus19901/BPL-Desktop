@@ -98,7 +98,7 @@
             symbol: 'β',
             version: 0x19,
             slip44: 111,
-            explorer: 'http://54.183.132.15:9031/',
+            explorer: 'http://bplexp.blockpool.io',
             exchanges: {
               changer: 'bpl_BPL'
             },
@@ -134,15 +134,18 @@
     function getNetworks () {
       return storageService.getGlobal('networks')
     }
-
+    function getCurrency() {
+      console.log("====")
+      return storageService.get('currency')
+    }
     function getPrice () {
       let failedTicker = () => {
         let lastPrice = storageService.get('lastPrice')
 
-        if (typeof lastPrice === 'undefined') {
-          peer.market = { price: { btc: '0.0' } }
-          return
-        }
+        // if (typeof lastPrice === 'undefined') {
+        //   peer.market = { price: { btc: '0.0' } }
+        //   return
+        // }
 
         peer.market = lastPrice.market
         peer.market.lastUpdate = lastPrice.date
@@ -153,9 +156,11 @@
         failedTicker()
         return
       }
-
+      var currencyName = getCurrency()
+      // console.log(currencyName.name)      
       $http.get('https://api.coinmarketcap.com/v1/ticker/' + (network.cmcTicker || 'blockpool'), { timeout: 2000 })
       .then(function (res) {
+
         if (res.data[0] && res.data[0].price_btc) {
           res.data[0].price_btc = convertToSatoshi(res.data[0].price_btc) // store BTC price in satoshi
         }
@@ -166,7 +171,7 @@
       .catch(failedTicker)
       $timeout(function () {
         getPrice()
-      }, 5 * 60000)
+      }, 5 * 6000)
     }
 
     function listenNetworkHeight () {
@@ -347,7 +352,7 @@
 
     // Updates peer with all currency values relative to the USD price.
     function updatePeerWithCurrencies (peer, res) {
-      $http.get('https://api.fixer.io/latest?base=USD', {timeout: 2000}).then(function (result) {
+      $http.get('http://data.fixer.io/api/latest?access_key=3bce3a17b9574497c8811c0657091175&base=eur', {timeout: 2000}).then(function (result) {
         const USD_PRICE = Number(res.data[0].price_usd)
         var currencies = ['aud', 'brl', 'cad', 'chf', 'cny', 'eur', 'gbp', 'hkd', 'idr', 'inr', 'jpy', 'krw', 'mxn', 'rub']
         var prices = {}
@@ -374,6 +379,7 @@
       removeNetwork: removeNetwork,
       getNetwork: getNetwork,
       getNetworks: getNetworks,
+      getCurrency: getCurrency,
       getPeer: getPeer,
       getConnection: getConnection,
       getFromPeer: getFromPeer,

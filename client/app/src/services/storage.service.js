@@ -85,6 +85,10 @@
       } else {
         storage[key] = value
       }
+      // console.log("============")
+      // console.log(storage)
+      // console.log(key)
+      // console.log(value)
       if (forcesave) {
         saveState()
       }
