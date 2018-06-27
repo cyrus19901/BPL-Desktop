@@ -108,12 +108,12 @@
           },
           testnet: {
             nethash: 'f9b98b78d2012ba8fd75538e3569bbc071ce27f0f93414218bc34bc72bdeb3db',
-            peerseed: 'http://13.59.229.104:9028',
+            peerseed: 'http://35.180.24.146:9028',
             token: 'BPL',
             symbol: 'Tβ',
             version: 0x19,
             slip44: 1, // all coin testnet
-            explorer: 'http://52.66.184.223:9029',
+            explorer: 'http://13.231.247.234:8081',
             background: 'url(assets/images/images/BPL_background3.jpg) no-repeat ',
             theme: 'default',
             themeDark: false
