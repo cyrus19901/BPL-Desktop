@@ -98,10 +98,8 @@
             symbol: 'β',
             version: 0x19,
             slip44: 111,
+            cmcTicker: 'blockpool',
             explorer: 'http://bplexp.blockpool.io',
-            exchanges: {
-              changer: 'bpl_BPL'
-            },
             background: 'url(assets/images/images/BPL_background3.jpg) no-repeat ',
             theme: 'default',
             themeDark: false
@@ -111,6 +109,7 @@
             peerseed: 'http://35.180.24.146:9028',
             token: 'BPL',
             symbol: 'Tβ',
+            cmcTicker: 'blockpool',
             version: 0x19,
             slip44: 1, // all coin testnet
             explorer: 'http://13.231.247.234:8081',
@@ -135,17 +134,16 @@
       return storageService.getGlobal('networks')
     }
     function getCurrency() {
-      console.log("====")
       return storageService.get('currency')
     }
     function getPrice () {
       let failedTicker = () => {
         let lastPrice = storageService.get('lastPrice')
 
-        // if (typeof lastPrice === 'undefined') {
-        //   peer.market = { price: { btc: '0.0' } }
-        //   return
-        // }
+        if (typeof lastPrice === 'undefined') {
+          peer.market = { price: { btc: '0.0' } }
+          return
+        }
 
         peer.market = lastPrice.market
         peer.market.lastUpdate = lastPrice.date
@@ -157,7 +155,7 @@
         return
       }
       var currencyName = getCurrency()
-      // console.log(currencyName.name)      
+    
       $http.get('https://api.coinmarketcap.com/v1/ticker/' + (network.cmcTicker || 'blockpool'), { timeout: 2000 })
       .then(function (res) {
 

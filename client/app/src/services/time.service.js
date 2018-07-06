@@ -11,9 +11,18 @@
   function TimeService ($q, $http) {
     var timeServerUrl = 'http://tycho.usno.navy.mil/cgi-bin/time.pl'
     var serverLatency = 0
-    var config = {
-      timeout: 2000
-    }
+    var args = {
+      headers: { "Content-Type": "application/json" },
+      data:{},
+      rejectUnauthorized: false
+    };
+    // var config = {
+    //   rejectUnauthorized: false,
+    //   requestCert: true,
+    //   agent: false,
+    //   insecure: true,
+    //   timeout: 2000
+    // }
     var localToServerTimeDiff = 0
 
     /**
@@ -26,22 +35,24 @@
 
       var startTime = new Date().getTime()
 
-      $http.get(timeServerUrl, config).then(
+      $http.get(timeServerUrl, args).then(
         (success) => {
-          var timestamp = success.headers().date
-          var processedTimestamp = new Date(timestamp).getTime()
-          var endTime = new Date().getTime()
+          console.log(success)
+          // var timestamp = success.headers().date
+          // var processedTimestamp = new Date(timestamp).getTime()
+          // var endTime = new Date().getTime()
 
-          serverLatency = endTime - startTime
+          // serverLatency = endTime - startTime
 
-          var computedTimestamp = processedTimestamp + serverLatency
+          // var computedTimestamp = processedTimestamp + serverLatency
 
-          var currentLocalTime = new Date().getTime()
-          localToServerTimeDiff = computedTimestamp - currentLocalTime
+          // var currentLocalTime = new Date().getTime()
+          // localToServerTimeDiff = computedTimestamp - currentLocalTime
 
-          deferred.resolve(computedTimestamp)
+          // deferred.resolve(computedTimestamp)
         },
         (_error) => {
+          console.log("here")
           // use the system time instead on error
           var timestamp = new Date().getTime()
 
