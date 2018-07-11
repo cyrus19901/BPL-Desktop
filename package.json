@@ -1,6 +1,6 @@
 {
   "name": "BPLClient",
-  "version": "2.2.7",
+  "version": "2.2.8",
   "productName": "BPLClient",
   "description": "BPLClient",
   "main": "main.js",
