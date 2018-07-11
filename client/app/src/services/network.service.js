@@ -99,9 +99,6 @@
             version: 0x19,
             slip44: 111,
             explorer: 'http://bplexp.blockpool.io',
-            exchanges: {
-              changer: 'bpl_BPL'
-            },
             background: 'url(assets/images/images/BPL_background3.jpg) no-repeat ',
             theme: 'default',
             themeDark: false
@@ -135,17 +132,16 @@
       return storageService.getGlobal('networks')
     }
     function getCurrency() {
-      console.log("====")
       return storageService.get('currency')
     }
     function getPrice () {
       let failedTicker = () => {
         let lastPrice = storageService.get('lastPrice')
 
-        // if (typeof lastPrice === 'undefined') {
-        //   peer.market = { price: { btc: '0.0' } }
-        //   return
-        // }
+        if (typeof lastPrice === 'undefined') {
+          peer.market = { price: { btc: '0.0' } }
+          return
+        }
 
         peer.market = lastPrice.market
         peer.market.lastUpdate = lastPrice.date
@@ -156,22 +152,21 @@
         failedTicker()
         return
       }
-      var currencyName = getCurrency()
-      // console.log(currencyName.name)      
+      var currencyName = getCurrency()  
       $http.get('https://api.coinmarketcap.com/v1/ticker/' + (network.cmcTicker || 'blockpool'), { timeout: 2000 })
       .then(function (res) {
-
         if (res.data[0] && res.data[0].price_btc) {
           res.data[0].price_btc = convertToSatoshi(res.data[0].price_btc) // store BTC price in satoshi
         }
+
         peer.market = res.data[0]
-        peer = updatePeerWithCurrencies(peer, res)
+        peer = updatePeerWithCurrencies(peer)
         storageService.set('lastPrice', { market: peer.market, date: new Date() })
       }, failedTicker)
       .catch(failedTicker)
       $timeout(function () {
         getPrice()
-      }, 5 * 6000)
+      }, 5 * 60000)
     }
 
     function listenNetworkHeight () {
@@ -351,16 +346,25 @@
     }
 
     // Updates peer with all currency values relative to the USD price.
-    function updatePeerWithCurrencies (peer, res) {
-      $http.get('http://data.fixer.io/api/latest?access_key=3bce3a17b9574497c8811c0657091175&base=eur', {timeout: 2000}).then(function (result) {
-        const USD_PRICE = Number(res.data[0].price_usd)
+    function updatePeerWithCurrencies (peer) {
+      $http.get('https://test.bit.blockpool.io/wallet/utilities/exchangerates', {timeout: 2000}).then(function (result) {
+        const BPL_BTC = result.data.rates['BPL'].rate_btc
+        const USD_BTC = result.data.rates['USD'].rate_btc
+        const USD_PRICE = Number((BPL_BTC/USD_BTC).toFixed(2))
         var currencies = ['aud', 'brl', 'cad', 'chf', 'cny', 'eur', 'gbp', 'hkd', 'idr', 'inr', 'jpy', 'krw', 'mxn', 'rub']
         var prices = {}
         currencies.forEach(function (currency) {
-          prices[currency] = result.data.rates[currency.toUpperCase()] * USD_PRICE
+        let inBTC = result.data.rates[currency.toUpperCase()].rate_btc
+
+        if (inBTC == "BTC"){
+          prices[currency] = inBTC.toFixed(8)
+        }
+        else {
+          prices[currency] = (BPL_BTC / result.data.rates[currency.toUpperCase()].rate_btc).toFixed(2)
+        }
         })
-        prices['btc'] = res.data[0].price_btc
-        prices['usd'] = res.data[0].price_usd
+        prices['btc'] = BPL_BTC
+        prices['usd'] = USD_PRICE
         peer.market.price = prices
         storageService.setGlobal('peerCurrencies', prices)
       })

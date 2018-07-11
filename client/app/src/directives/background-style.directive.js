@@ -15,7 +15,7 @@
         restrict: 'A',
         require: '?ngModel',
         link: function (scope, elem, attrs, ctrl) {
-          var defaultBackground = 'url(assets/images/images/Bpl.jpg)'
+          var defaultBackground = 'url(assets/images/images/Blockchain.jpg)'
           // This is the custom configuration of textures
           var textures = {
             'Ahoy.jpg': {
@@ -37,10 +37,14 @@
 
           scope.$watch(attrs.backgroundStyle, function (value) {
             // Check if the background exists
+            if (value === undefined){
+              value = defaultBackground
+            }
             var mathPath = value.match(pathRe)
             if (mathPath) {
               let filePath = mathPath[1].replace(/'/g, ``)
               var fullPath = require('path').join(__dirname, filePath)
+
               if (!require('fs').existsSync(filePath) && !require('fs').existsSync(fullPath)) {
                 value = defaultBackground // if not exists
               }
