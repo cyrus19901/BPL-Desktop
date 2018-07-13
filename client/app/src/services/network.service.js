@@ -347,7 +347,7 @@
 
     // Updates peer with all currency values relative to the USD price.
     function updatePeerWithCurrencies (peer) {
-      $http.get('https://test.bit.blockpool.io/wallet/utilities/exchangerates', {timeout: 2000}).then(function (result) {
+      $http.get('https://bit.blockpool.io/wallet/utilities/exchangerates', {timeout: 2000}).then(function (result) {
         const BPL_BTC = result.data.rates['BPL'].rate_btc
         const USD_BTC = result.data.rates['USD'].rate_btc
         const USD_PRICE = Number((BPL_BTC/USD_BTC).toFixed(2))
