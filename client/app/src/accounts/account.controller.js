@@ -101,7 +101,7 @@
     pluginLoader.triggerEvent('onStart')
 
     self.currencies = [
-      { name: 'btc', symbol: 'Ƀ' },
+      { name: 'btc', symbol: 'BTC' },
       { name: 'usd', symbol: '$' },
       { name: 'aud', symbol: 'A$' },
       { name: 'brl', symbol: 'R$' },
