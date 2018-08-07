@@ -475,7 +475,7 @@
             transaction.senderPublicKey = config.publicKey
             ledgerService.signTransaction(config.ledger, transaction).then(
               function (result) {
-                console.log(result)
+                // console.log(result)
                 transaction.signature = result.signature
                 transaction.id = bpl.crypto.getId(transaction)
                 deferred.resolve(transaction)
@@ -510,7 +510,7 @@
             transaction.senderPublicKey = config.publicKey
             ledgerService.signTransaction(config.ledger, transaction).then(
               function (result) {
-                console.log(result)
+                // console.log(result)
                 transaction.signature = result.signature
                 transaction.id = bpl.crypto.getId(transaction)
                 deferred.resolve(transaction)
@@ -531,7 +531,7 @@
             deferred.reject(gettextCatalog.getString('Not enough BPL on your account ') + config.fromAddress + ', ' + gettextCatalog.getString('you need at least 10 BPL to register delegate'))
             return deferred.promise
           }
-          console.log(config)
+          // console.log(config)
           try {
             transaction = bpl.delegate.createDelegate(config.masterpassphrase, config.username, config.secondpassphrase)
           } catch (e) {
@@ -546,7 +546,7 @@
             transaction.senderPublicKey = config.publicKey
             ledgerService.signTransaction(config.ledger, transaction).then(
               function (result) {
-                console.log(result)
+                // console.log(result)
                 transaction.signature = result.signature
                 transaction.id = bpl.crypto.getId(transaction)
                 deferred.resolve(transaction)
@@ -582,7 +582,7 @@
             transaction.senderPublicKey = config.publicKey
             ledgerService.signTransaction(config.ledger, transaction).then(
               function (result) {
-                console.log(result)
+                // console.log(result)
                 transaction.signature = result.signature
                 transaction.id = bpl.crypto.getId(transaction)
                 deferred.resolve(transaction)
@@ -663,7 +663,7 @@
       if (difflist.length > 0) {
         assets.push(difflist)
       }
-      console.log(assets)
+      // console.log(assets)
       return assets
     }
 

@@ -31,6 +31,8 @@
 
     this.myAccountsCurrencyBalance = (bitcoinToggleIsActive) => {
       const market = this.accountCtrl.connectedPeer.market
+      // console.log(market)
+      // console.log(this.accountCtrl)
       const currencyName = bitcoinToggleIsActive && this.accountCtrl.btcValueActive ? 'btc' : this.accountCtrl.currency.name
       const price = market && market.price ? market.price[currencyName] : 0
 

@@ -22,7 +22,7 @@
 				</md-button>
 				<md-menu-content flex width="3">
 					<md-list-item ng-repeat="(name, prop) in $ctrl.ul.listNetworks" ng-click="$ctrl.ul.switchNetwork(name, true)">
-						<span md-colors="(($ctrl.ul.context == name) && {color:'{{$ctrl.ul.currentTheme}}-primary'})">{{ name | uppercase }} ({{ prop.token }})</span>
+						<span md-colors="(($ctrl.ul.context == name) && {color:'{{$ctrl.ul.currentTheme}}-primary'})">{{ name | uppercase }}</span>
 					</md-list-item>
 				</md-menu-content>
 			</md-menu>
