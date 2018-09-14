@@ -2,9 +2,9 @@
   'use strict'
 
   angular.module('bplclient.directives')
-    .directive('copyToClipboard', function ($window) {
-      var body = angular.element($window.document.body)
-      var textarea = angular.element('<textarea/>')
+    .directive('copyToClipboard', ($window) => {
+      const body = angular.element($window.document.body)
+      const textarea = angular.element('<textarea/>')
       textarea.css({
         position: 'fixed',
         opacity: '0'
@@ -16,7 +16,7 @@
         textarea[0].select()
 
         try {
-          var successful = document.execCommand('copy')
+          const successful = document.execCommand('copy')
           if (!successful) throw successful
         } catch (err) {
           console.log('failed to copy', toCopy)
@@ -27,7 +27,7 @@
       return {
         restrict: 'A',
         link: function (scope, element, attrs) {
-          element.bind('click', function (e) {
+          element.bind('click', (e) => {
             copy(attrs.copyToClipboard)
           })
         }
