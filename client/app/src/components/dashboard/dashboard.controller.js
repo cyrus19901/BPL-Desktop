@@ -19,33 +19,33 @@
     }
 
     this.showAnnouncements = () => {
-      // console.log("announcement in progress");
-      // return feedService.fetchBlogEntries()
-      //   .then(entries => {
-      //     const entry = entries[0]
+      console.log("announcement in progress");
+      return feedService.fetchBlogEntries()
+        .then(entries => {
+          const entry = entries[0]
 
-      //     const stored = storageService.getGlobal('announcements')
-      //     const last = stored ? stored.last : null
+          const stored = storageService.getGlobal('announcements')
+          const last = stored ? stored.last : null
 
-      //     if (!last || (last.guid !== entry.guid && last.isoDate < entry.isoDate)) {
-      //       const announcement = {
-      //         guid: entry.guid,
-      //         date: entry.isoDate,
-      //         text: entry.title,
-      //         url: entry.link
-      //       }
+          if (!last || (last.guid !== entry.guid && last.isoDate < entry.isoDate)) {
+            const announcement = {
+              guid: entry.guid,
+              date: entry.isoDate,
+              text: entry.title,
+              url: entry.link
+            }
 
-      //       $mdToast.show({
-      //         templateUrl: 'src/components/dashboard/templates/announcement.html',
-      //         parent: angular.element(document.getElementById('dashboard')),
-      //         controller: 'AnnouncementController',
-      //         locals: { announcement },
-      //         position: 'bottom left',
-      //         hideDelay: false
-      //       })
-      //     }
-      //   })
-      //   .catch(_ => toastService.error('Error loading the announcements.', 3000))
+            $mdToast.show({
+              templateUrl: 'src/components/dashboard/templates/announcement.html',
+              parent: angular.element(document.getElementById('dashboard')),
+              controller: 'AnnouncementController',
+              locals: { announcement },
+              position: 'bottom left',
+              hideDelay: false
+            })
+          }
+        })
+        .catch(_ => toastService.error('Error loading the announcements.', 3000))
     }
   }
 })()
