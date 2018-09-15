@@ -19,7 +19,7 @@
     }
 
     this.showAnnouncements = () => {
-      console.log("announcement in progress");
+      console.log('announcement in progress')
       return feedService.fetchBlogEntries()
         .then(entries => {
           const entry = entries[0]
