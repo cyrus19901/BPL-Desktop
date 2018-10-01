@@ -25,7 +25,7 @@
     }
 
     self.TxTypes = {
-      0: 'Send Bpl',
+      0: 'Send BPL',
       1: 'Second Signature Creation',
       2: 'Delegate Registration',
       3: 'Vote',
@@ -254,7 +254,7 @@
       if (transaction.recipientId === recipientAddress) {
         transaction.total = transaction.amount
       // if (transaction.type == 0) {
-      //   transaction.label = gettextCatalog.getString("Receive Bpl")
+      //   transaction.label = gettextCatalog.getString("Receive BPL")
       // }
       }
       if (transaction.senderId === recipientAddress) {

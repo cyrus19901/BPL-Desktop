@@ -110,8 +110,8 @@ msgstr "Arabski"
 msgid "Are you sure?"
 msgstr "Jesteś pewny?"
 
-msgid "Bpl Client"
-msgstr "Klient Bpl"
+msgid "BPL Client"
+msgstr "Klient BPL"
 
 msgid "Background"
 msgstr "Tło"
@@ -494,7 +494,7 @@ msgstr "Passhprase"
 msgid "Passphrase does not match your address"
 msgstr "Passphrase nie zgadza się z Twoim adresem"
 
-msgid "Passphrase is <strong>case sensitive</strong>, each character change will result in importing a different Bpl address! Passphrases are <strong>not saved</strong> on this computer so always make sure you have them <strong>backed up safely!</strong>"
+msgid "Passphrase is <strong>case sensitive</strong>, each character change will result in importing a different BPL address! Passphrases are <strong>not saved</strong> on this computer so always make sure you have them <strong>backed up safely!</strong>"
 msgstr "W passphrase <strong>rozróżnianie są litery</strong>, każda zmiana znaku w rezultacie zaimportuje inny adres BPL! Passhprase <strong>nie jest</strong> przechowywany na tym komputerze dlatego zawsze upewnij się, że <strong>bezpiecznie go zabezpieczyłeś!</strong>"
 
 msgid "Passphrase is not corresponding to account"
@@ -587,14 +587,14 @@ msgstr "Skaner QR"
 msgid "Quit"
 msgstr "Wyjdź"
 
-msgid "Quit Bpl Client?"
-msgstr "Wyjść z klienta Bpl?"
+msgid "Quit BPL Client?"
+msgstr "Wyjść z klienta BPL?"
 
 msgid "Rank"
 msgstr "Ranking"
 
-msgid "Receive Bpl"
-msgstr "Otrzymaj Bpl"
+msgid "Receive BPL"
+msgstr "Otrzymaj BPL"
 
 msgid "Refresh Account"
 msgstr "Odśwież konto"
@@ -668,14 +668,14 @@ msgstr "Wyślij"
 msgid "Send All"
 msgstr "Wyślij wszystko"
 
-msgid "Send Bpl"
-msgstr "Wyślij Bpl"
+msgid "Send BPL"
+msgstr "Wyślij BPL"
 
 msgid "Serbian"
 msgstr "Serbski"
 
-msgid "Send Bpl from"
-msgstr "Wyślij Bpl z"
+msgid "Send BPL from"
+msgstr "Wyślij BPL z"
 
 msgid "Set"
 msgstr "Ustaw"
@@ -827,8 +827,8 @@ msgstr "Głosuj"
 msgid "Votes"
 msgstr "Głosy"
 
-msgid "Voting is an optional, but important mechanism that keeps the Bpl network secure. The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks. This page can be used to cast your vote for\n                a delegate that you support."
-msgstr "Głosowanie to opcjonalny, ale bardzo ważny mechanizm który pozwala zachować bezpieczeństwo w sieci BPL. 51 delegatów z największą ilością głosów z sieci jest odpowiedzialnych za weryfikację i dodawanie transakcji do nowych bloków.\nTa strona może być używana do oddania głosu na delegata którego popierasz."
+msgid "Voting is an optional, but important mechanism that keeps the BPL network secure. The 201 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks. This page can be used to cast your vote for\n                a delegate that you support."
+msgstr "Głosowanie to opcjonalny, ale bardzo ważny mechanizm który pozwala zachować bezpieczeństwo w sieci BPL. 201 delegatów z największą ilością głosów z sieci jest odpowiedzialnych za weryfikację i dodawanie transakcji do nowych bloków.\nTa strona może być używana do oddania głosu na delegata którego popierasz."
 
 msgid "Word"
 msgstr "Słowo"
@@ -878,11 +878,11 @@ msgstr "wysłano pomyślnie!"
 msgid "you need at least 1 BPL to vote"
 msgstr "Potrzebujesz co najmniej 1 BPL do głosowania"
 
-msgid "you need at least 25 BPL to register delegate"
-msgstr "Potrzebujesz co najmniej 25 BPL do zarejestrowania delegata"
+msgid "you need at least 10 BPL to register delegate"
+msgstr "Potrzebujesz co najmniej 10 BPL do zarejestrowania delegata"
 
-msgid "Voting is an optional, but important mechanism that keeps the Bpl network secure.\n                The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
-msgstr "Głosowanie to opcjonalny, ale bardzo ważny mechanizm który pozwala zachować bezpieczeństwo w sieci BPL. 51 delegatów z największą ilością głosów z sieci jest odpowiedzialnych za weryfikację i dodawanie transakcji do nowych bloków.\nTa strona może być używana do oddania głosu na delegata którego popierasz."
+msgid "Voting is an optional, but important mechanism that keeps the BPL network secure.\n                The 201 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
+msgstr "Głosowanie to opcjonalny, ale bardzo ważny mechanizm który pozwala zachować bezpieczeństwo w sieci BPL. 201 delegatów z największą ilością głosów z sieci jest odpowiedzialnych za weryfikację i dodawanie transakcji do nowych bloków.\nTa strona może być używana do oddania głosu na delegata którego popierasz."
 
 msgid "you need at least 5 BPL to create a second passphrase"
 msgstr "Potrzebujesz co najmniej 5 BPL aby stworzyć drugą passphrase"

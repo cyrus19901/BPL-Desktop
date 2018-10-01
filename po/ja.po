@@ -69,5 +69,5 @@ msgid "This account already has a second passphrase:"
 msgstr "このアカウントにはセカンドパスフレーズが既にあります。"
 
 msgid "you need at least 5 BPL to create a second passphrase"
-msgstr "セカンドパスフレーズを作成するには最低5ARKを保有している必要があります。"
+msgstr "セカンドパスフレーズを作成するには最低5BPLを保有している必要があります。"
 

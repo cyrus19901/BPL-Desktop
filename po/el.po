@@ -50,8 +50,8 @@ msgstr "Έγκριση"
 msgid "Are you sure?"
 msgstr "Είστε σίγουρος;"
 
-msgid "Bpl Client"
-msgstr "Bpl Client"
+msgid "BPL Client"
+msgstr "BPL Client"
 
 msgid "Balance"
 msgstr "Υπόλοιπο"
@@ -341,13 +341,13 @@ msgstr "Παραγωγικότητα"
 msgid "Quit"
 msgstr "Τερματισμός"
 
-msgid "Quit Bpl Client?"
-msgstr "Τερματισμός του Bpl Client ;"
+msgid "Quit BPL Client?"
+msgstr "Τερματισμός του BPL Client ;"
 
 msgid "Rank"
 msgstr "Κατάταξη"
 
-msgid "Receive Bpl"
+msgid "Receive BPL"
 msgstr "Παραλαβή BPL"
 
 msgid "Register Delegate"
@@ -377,11 +377,11 @@ msgstr "Δεύτερη Passphrase"
 msgid "Send"
 msgstr "Αποστολή"
 
-msgid "Send Bpl"
-msgstr "Αποστολή Bpl"
+msgid "Send BPL"
+msgstr "Αποστολή BPL"
 
-msgid "Send Bpl from"
-msgstr "Αποστολή Bpl από"
+msgid "Send BPL from"
+msgstr "Αποστολή BPL από"
 
 msgid "Set"
 msgstr "Ρύθμιση"
@@ -467,8 +467,8 @@ msgstr "Στάλθηκε με επιτυχία"
 msgid "you need at least 1 BPL to vote"
 msgstr "Χρειάζεστε τουλάχιστον 1 BPL για να ψηφίσετε"
 
-msgid "you need at least 25 BPL to register delegate"
-msgstr "Χρειάζεστε τουλάχιστον 25 BPL για να κατοχυρώσετε έναν delegate"
+msgid "you need at least 10 BPL to register delegate"
+msgstr "Χρειάζεστε τουλάχιστον 10 BPL για να κατοχυρώσετε έναν delegate"
 
 msgid "you need at least 5 BPL to create a second passphrase"
 msgstr "χρειάζεστε τουλάχιστον 5 BPL για να δημιουργήσετε μια δεύτερη φράση πρόσβασης"

@@ -296,11 +296,11 @@ msgstr "A doua parola"
 msgid "Send"
 msgstr "Trimite"
 
-msgid "Send Bpl"
-msgstr "Trimite Bpl"
+msgid "Send BPL"
+msgstr "Trimite BPL"
 
-msgid "Send Bpl from"
-msgstr "Trimite Bpl de la"
+msgid "Send BPL from"
+msgstr "Trimite BPL de la"
 
 msgid "Set"
 msgstr "Seteaza"
@@ -374,11 +374,11 @@ msgstr "trimis cu succes!"
 msgid "you need at least 1 BPL to vote"
 msgstr "aveti nevoie de minim 1 BPL pentru a vota"
 
-msgid "you need at least 25 BPL to register delegate"
-msgstr "aveti nevoie de minim 25 BPL pentru a inregistra un delegat"
+msgid "you need at least 10 BPL to register delegate"
+msgstr "aveti nevoie de minim 10 BPL pentru a inregistra un delegat"
 
-msgid "Voting is an optional, but important mechanism that keeps the Bpl network secure.\n                The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
-msgstr "Votul este optional dar un mecanism important care pastreaza reteaua Bpl in siguranta.\nCei 51 delegati cu cele mai multe voturi din retea sunt responsabili pentru verificarea si prelucrarea tranzactiilor in blocuri noi.\nAceasta pagina poate fi folosita sa votezi un delegat pe care il sustii."
+msgid "Voting is an optional, but important mechanism that keeps the BPL network secure.\n                The 201 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
+msgstr "Votul este optional dar un mecanism important care pastreaza reteaua BPL in siguranta.\nCei 201 delegati cu cele mai multe voturi din retea sunt responsabili pentru verificarea si prelucrarea tranzactiilor in blocuri noi.\nAceasta pagina poate fi folosita sa votezi un delegat pe care il sustii."
 
 msgid "you need at least 5 BPL to create a second passphrase"
 msgstr "Ai nevoie de 5 BPL sa creezi a doua parola de acces"

@@ -107,8 +107,8 @@ msgstr "Arabisch"
 msgid "Are you sure?"
 msgstr "Weet je het zeker?"
 
-msgid "Bpl Client"
-msgstr "Bpl client"
+msgid "BPL Client"
+msgstr "BPL client"
 
 msgid "Background"
 msgstr "Achtergrond"
@@ -503,14 +503,14 @@ msgstr "QR-scanner"
 msgid "Quit"
 msgstr "Ophouden"
 
-msgid "Quit Bpl Client?"
-msgstr "Stoppen Bpl Client?"
+msgid "Quit BPL Client?"
+msgstr "Stoppen BPL Client?"
 
 msgid "Rank"
 msgstr "Rang"
 
-msgid "Receive Bpl"
-msgstr "Ontvang Bpl"
+msgid "Receive BPL"
+msgstr "Ontvang BPL"
 
 msgid "Register Delegate"
 msgstr "Registreer gedelegeerde "
@@ -572,11 +572,11 @@ msgstr "Sturen"
 msgid "Send All"
 msgstr "Alles versturen"
 
-msgid "Send Bpl"
-msgstr "Stuur Bpl"
+msgid "Send BPL"
+msgstr "Stuur BPL"
 
-msgid "Send Bpl from"
-msgstr "Stuur Bpl van"
+msgid "Send BPL from"
+msgstr "Stuur BPL van"
 
 msgid "Set"
 msgstr "Set"
@@ -752,11 +752,11 @@ msgstr "Verzonden met succes!"
 msgid "you need at least 1 BPL to vote"
 msgstr "U heeft minimaal 1 BPL nodig om te stemmen."
 
-msgid "you need at least 25 BPL to register delegate"
-msgstr "U heeft minimaal 25 BPL nodig om delegat te registreren."
+msgid "you need at least 10 BPL to register delegate"
+msgstr "U heeft minimaal 10 BPL nodig om delegat te registreren."
 
-msgid "Voting is an optional, but important mechanism that keeps the Bpl network secure.\n                The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
-msgstr "Stemmen is optioneel, maar een belangrijk mechanisme wat het Bpl netwerk veilig houdt.\nDe 51 gedelegeerden met de meeste stemmen van het netwerk zijn verantwoordelijk voor het verifiëren en het smeden van transacties in nieuwe blokken.\nDeze pagina kan gebruikt worden om uw stem te doen voor de gedelegeerde welke u steunt."
+msgid "Voting is an optional, but important mechanism that keeps the BPL network secure.\n                The 201 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
+msgstr "Stemmen is optioneel, maar een belangrijk mechanisme wat het BPL netwerk veilig houdt.\nDe 201 gedelegeerden met de meeste stemmen van het netwerk zijn verantwoordelijk voor het verifiëren en het smeden van transacties in nieuwe blokken.\nDeze pagina kan gebruikt worden om uw stem te doen voor de gedelegeerde welke u steunt."
 
 msgid "you need at least 5 BPL to create a second passphrase"
 msgstr "U heeft minimaal 5 BPL nodig om een tweede passphrase aan te maken"

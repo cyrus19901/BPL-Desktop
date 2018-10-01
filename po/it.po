@@ -104,8 +104,8 @@ msgstr "Arabo"
 msgid "Are you sure?"
 msgstr "Sei sicuro?"
 
-msgid "Bpl Client"
-msgstr "Bpl Client"
+msgid "BPL Client"
+msgstr "BPL Client"
 
 msgid "Background"
 msgstr "Sfondo"
@@ -512,14 +512,14 @@ msgstr "Scanner QR"
 msgid "Quit"
 msgstr "Chiudi"
 
-msgid "Quit Bpl Client?"
-msgstr "Sei sicuro di voler chiudere il client Bpl?"
+msgid "Quit BPL Client?"
+msgstr "Sei sicuro di voler chiudere il client BPL?"
 
 msgid "Rank"
 msgstr "Posizione"
 
-msgid "Receive Bpl"
-msgstr "Ricevi Bpl"
+msgid "Receive BPL"
+msgstr "Ricevi BPL"
 
 msgid "Register Delegate"
 msgstr "Registra Delegato"
@@ -581,11 +581,11 @@ msgstr "Spedisci"
 msgid "Send All"
 msgstr "Invia tutto"
 
-msgid "Send Bpl"
-msgstr "Spedisci Bpl"
+msgid "Send BPL"
+msgstr "Spedisci BPL"
 
-msgid "Send Bpl from"
-msgstr "Spedisci Bpl da "
+msgid "Send BPL from"
+msgstr "Spedisci BPL da "
 
 msgid "Set"
 msgstr "Imposta"
@@ -716,8 +716,8 @@ msgstr "Vota"
 msgid "Votes"
 msgstr "Voti"
 
-msgid "Voting is an optional, but important mechanism that keeps the Bpl network secure. The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks. This page can be used to cast your vote for\n                a delegate that you support."
-msgstr "Votare è un meccanismo opzionale, ma importante per mantenere sicura la rete Bpl. I 51 delegati con più voti dalla rete sono responsabili della verifica e della forgiatura di transazioni in nuovi blocchi. Questa pagina può essere usata per assegnare il tuo voto \nad un delegato che vuoi supportare."
+msgid "Voting is an optional, but important mechanism that keeps the BPL network secure. The 201 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks. This page can be used to cast your vote for\n                a delegate that you support."
+msgstr "Votare è un meccanismo opzionale, ma importante per mantenere sicura la rete BPL. I 201 delegati con più voti dalla rete sono responsabili della verifica e della forgiatura di transazioni in nuovi blocchi. Questa pagina può essere usata per assegnare il tuo voto \nad un delegato che vuoi supportare."
 
 msgid "Word"
 msgstr "Parola"
@@ -767,11 +767,11 @@ msgstr "inviato con successo!"
 msgid "you need at least 1 BPL to vote"
 msgstr "hai bisogno di almeno 1 BPL per votare"
 
-msgid "you need at least 25 BPL to register delegate"
-msgstr "hai bisogno di almeno 25 BPL per registrare un delegato"
+msgid "you need at least 10 BPL to register delegate"
+msgstr "hai bisogno di almeno 10 BPL per registrare un delegato"
 
-msgid "Voting is an optional, but important mechanism that keeps the Bpl network secure.\n                The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
-msgstr "Votare è un meccanismo opzionale, ma importante per mantenere sicura la rete Bpl.\nI 51 delegati con più voti dalla rete sono responsabili della verifica e della forgiatura di transazioni in nuovi blocchi. \nQuesta pagina può essere usata per assegnare il tuo voto ad un delegato che vuoi supportare."
+msgid "Voting is an optional, but important mechanism that keeps the BPL network secure.\n                The 201 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
+msgstr "Votare è un meccanismo opzionale, ma importante per mantenere sicura la rete BPL.\nI 201 delegati con più voti dalla rete sono responsabili della verifica e della forgiatura di transazioni in nuovi blocchi. \nQuesta pagina può essere usata per assegnare il tuo voto ad un delegato che vuoi supportare."
 
 msgid "you need at least 5 BPL to create a second passphrase"
 msgstr "Hai bisogno di almeno 5 BPL per creare una seconda passphrase"

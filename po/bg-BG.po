@@ -104,8 +104,8 @@ msgstr "Арабски"
 msgid "Are you sure?"
 msgstr "Сигурни ли сте?"
 
-msgid "bpl Client"
-msgstr "bpl клиент"
+msgid "BPL Client"
+msgstr "BPL клиент"
 
 msgid "Background"
 msgstr "Фон"
@@ -398,7 +398,7 @@ msgstr "Няма публичен ключ"
 msgid "No search term"
 msgstr "Няма критерии за търсене"
 
-msgid "Not enough bpl on your account"
+msgid "Not enough BPL on your account"
 msgstr "Нямате достатъчна наличност в акаунта си"
 
 msgid "OffChain"
@@ -512,14 +512,14 @@ msgstr "QR сканиране"
 msgid "Quit"
 msgstr "Изход"
 
-msgid "Quit bpl Client?"
+msgid "Quit BPL Client?"
 msgstr "Изход от Лиск клиента?"
 
 msgid "Rank"
 msgstr "Ранг"
 
-msgid "Receive bpl"
-msgstr "Получи bpl"
+msgid "Receive BPL"
+msgstr "Получи BPL"
 
 msgid "Register Delegate"
 msgstr "Регистрация на делегат"
@@ -581,11 +581,11 @@ msgstr "Изпрати"
 msgid "Send All"
 msgstr "Изпрати всичко"
 
-msgid "Send bpl"
-msgstr "Изпрати bpl"
+msgid "Send BPL"
+msgstr "Изпрати BPL"
 
-msgid "Send bpl from"
-msgstr "Изпрати bpl от"
+msgid "Send BPL from"
+msgstr "Изпрати BPL от"
 
 msgid "Set"
 msgstr "ОК"
@@ -716,8 +716,8 @@ msgstr "Гласуване"
 msgid "Votes"
 msgstr "Гласове"
 
-msgid "Voting is an optional, but important mechanism that keeps the bpl network secure. The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks. This page can be used to cast your vote for\n                a delegate that you support."
-msgstr "Гласуването е незадължителен, но важен механизъм който поддържа мрежата на Арк сигурна. Делегатите в Топ 51 с най-много гласове са отговорни за проверката и създаването на транзакции в новите блокове. Тук можете да гласувате за делегат когото подкрепяте."
+msgid "Voting is an optional, but important mechanism that keeps the BPL network secure. The 201 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks. This page can be used to cast your vote for\n                a delegate that you support."
+msgstr "Гласуването е незадължителен, но важен механизъм който поддържа мрежата на Арк сигурна. Делегатите в Топ 201 с най-много гласове са отговорни за проверката и създаването на транзакции в новите блокове. Тук можете да гласувате за делегат когото подкрепяте."
 
 msgid "Word"
 msgstr "Дума"
@@ -764,15 +764,15 @@ msgstr "продуктивност"
 msgid "sent with success!"
 msgstr "успешно изпратени!"
 
-msgid "you need at least 1 bpl to vote"
-msgstr "за да гласувате ви трябва поне 1 bpl"
+msgid "you need at least 1 BPL to vote"
+msgstr "за да гласувате ви трябва поне 1 BPL"
 
-msgid "you need at least 25 bpl to register delegate"
-msgstr "за регистрация на делегат трябва да имате 25 bpl"
+msgid "you need at least 10 BPL to register delegate"
+msgstr "за регистрация на делегат трябва да имате 10 BPL"
 
-msgid "Voting is an optional, but important mechanism that keeps the bpl network secure.\n                The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
-msgstr "Гласуването е незадължителен, но важен механизъм, който запазва сигурността на Арк мрежата.\n51-те делегати с най-много гласове от мрежата са отговорни за проверката и изковаването на транзакции в нови блокове.\nТази страница може да се използва за гласуване на делегат, който подкрепяте."
+msgid "Voting is an optional, but important mechanism that keeps the BPL network secure.\n                The 201 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
+msgstr "Гласуването е незадължителен, но важен механизъм, който запазва сигурността на Арк мрежата.\n201-те делегати с най-много гласове от мрежата са отговорни за проверката и изковаването на транзакции в нови блокове.\nТази страница може да се използва за гласуване на делегат, който подкрепяте."
 
-msgid "you need at least 5 bpl to create a second passphrase"
-msgstr "Трябва да имате поне 5 bpl, за да създадете втора фраза за достъп"
+msgid "you need at least 5 BPL to create a second passphrase"
+msgstr "Трябва да имате поне 5 BPL, за да създадете втора фраза за достъп"
 

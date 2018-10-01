@@ -95,8 +95,8 @@ msgstr "Árabe"
 msgid "Are you sure?"
 msgstr "Você tem certeza?"
 
-msgid "Bpl Client"
-msgstr "Cliente Bpl"
+msgid "BPL Client"
+msgstr "Cliente BPL"
 
 msgid "Background"
 msgstr "Plano de fundo"
@@ -548,14 +548,14 @@ msgstr "Scanner de código QR"
 msgid "Quit"
 msgstr "Sair"
 
-msgid "Quit Bpl Client?"
-msgstr "Sair do Cliente Bpl?"
+msgid "Quit BPL Client?"
+msgstr "Sair do Cliente BPL?"
 
 msgid "Rank"
 msgstr "Rank"
 
-msgid "Receive Bpl"
-msgstr "Receber Bpl"
+msgid "Receive BPL"
+msgstr "Receber BPL"
 
 msgid "Refresh Account"
 msgstr "Atualizar Conta"
@@ -620,14 +620,14 @@ msgstr "Enviar"
 msgid "Send All"
 msgstr "Enviar Tudo"
 
-msgid "Send Bpl"
-msgstr "Enviar Bpl"
+msgid "Send BPL"
+msgstr "Enviar BPL"
 
 msgid "Serbian"
 msgstr "Sérvio"
 
-msgid "Send Bpl from"
-msgstr "Enviar Bpl de"
+msgid "Send BPL from"
+msgstr "Enviar BPL de"
 
 msgid "Set"
 msgstr "Conjunto"
@@ -788,11 +788,11 @@ msgstr "enviado com sucesso!"
 msgid "you need at least 1 BPL to vote"
 msgstr "você precisa de pelo menos 1 BPL para votar"
 
-msgid "you need at least 25 BPL to register delegate"
-msgstr "Você necessita de pelo menos 25 BPL para registrar o delegado "
+msgid "you need at least 10 BPL to register delegate"
+msgstr "Você necessita de pelo menos 10 BPL para registrar o delegado "
 
-msgid "Voting is an optional, but important mechanism that keeps the Bpl network secure.\n                The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
-msgstr "A votação é um mecanismo opcional, mas importante, que mantém a rede Bpl segura.\nOs 51 delegados com mais votos da rede são responsáveis ​​por verificar e forjar transações em novos blocos.\nEsta página pode ser usada para votar para um delegado que você apoia."
+msgid "Voting is an optional, but important mechanism that keeps the BPL network secure.\n                The 201 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
+msgstr "A votação é um mecanismo opcional, mas importante, que mantém a rede BPL segura.\nOs 201 delegados com mais votos da rede são responsáveis ​​por verificar e forjar transações em novos blocos.\nEsta página pode ser usada para votar para um delegado que você apoia."
 
 msgid "you need at least 5 BPL to create a second passphrase"
 msgstr "Você precisa de pelo menos 5 BPL para criar uma segunda frase secreta"

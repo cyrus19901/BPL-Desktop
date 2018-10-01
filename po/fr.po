@@ -110,8 +110,8 @@ msgstr "Arabe"
 msgid "Are you sure?"
 msgstr "Êtes-vous sûr ?"
 
-msgid "Bpl Client"
-msgstr "Client Bpl"
+msgid "BPL Client"
+msgstr "Client BPL"
 
 msgid "Background"
 msgstr "Fond"
@@ -497,8 +497,8 @@ msgstr "Mot de Passe"
 msgid "Passphrase does not match your address"
 msgstr "Le mot de passe ne correspond pas à votre adresse"
 
-msgid "Passphrase is <strong>case sensitive</strong>, each character change will result in importing a different Bpl address! Passphrases are <strong>not saved</strong> on this computer so always make sure you have them <strong>backed up safely!</strong>"
-msgstr "Votre phrase secrète est <strong>sensible à la casse</strong>, chaque changement de caractère entraînera l'importation d'une autre adresse Bpl ! Les mots de passe ne sont <strong>pas enregistrés</strong> sur cet ordinateur, assurez-vous de toujours les <strong>sauvegarder en toute sécurité !</strong>"
+msgid "Passphrase is <strong>case sensitive</strong>, each character change will result in importing a different BPL address! Passphrases are <strong>not saved</strong> on this computer so always make sure you have them <strong>backed up safely!</strong>"
+msgstr "Votre phrase secrète est <strong>sensible à la casse</strong>, chaque changement de caractère entraînera l'importation d'une autre adresse BPL ! Les mots de passe ne sont <strong>pas enregistrés</strong> sur cet ordinateur, assurez-vous de toujours les <strong>sauvegarder en toute sécurité !</strong>"
 
 msgid "Passphrase is not corresponding to account"
 msgstr "Le mot de passe ne correspond pas au compte"
@@ -590,13 +590,13 @@ msgstr "QR Scanner"
 msgid "Quit"
 msgstr "Quitter"
 
-msgid "Quit Bpl Client?"
-msgstr "Quitter le Client Bpl ?"
+msgid "Quit BPL Client?"
+msgstr "Quitter le Client BPL ?"
 
 msgid "Rank"
 msgstr "Rang"
 
-msgid "Receive Bpl"
+msgid "Receive BPL"
 msgstr "Recevoir des BPL"
 
 msgid "Refresh Account"
@@ -674,14 +674,14 @@ msgstr "Envoyer"
 msgid "Send All"
 msgstr "Tout envoyer"
 
-msgid "Send Bpl"
-msgstr "Envoyer des Bpl"
+msgid "Send BPL"
+msgstr "Envoyer des BPL"
 
 msgid "Serbian"
 msgstr "Serbe"
 
-msgid "Send Bpl from"
-msgstr "Envoyer des Bpl depuis"
+msgid "Send BPL from"
+msgstr "Envoyer des BPL depuis"
 
 msgid "Set"
 msgstr "Créer"
@@ -714,7 +714,7 @@ msgid "Slovenian"
 msgstr "Slovénien"
 
 msgid "Smartbridge"
-msgstr "Passerelle vers bpl"
+msgstr "Passerelle vers BPL"
 
 msgid "So the block timestamp that will include this transaction will be a proof of existence of the file you have timestamped."
 msgstr "Donc l'horodatage des blocs qui contiendra cette transaction sera une preuve de l'existence du fichier que vous aurez horodaté."
@@ -833,8 +833,8 @@ msgstr "Vote"
 msgid "Votes"
 msgstr "Votes"
 
-msgid "Voting is an optional, but important mechanism that keeps the Bpl network secure. The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks. This page can be used to cast your vote for\n                a delegate that you support."
-msgstr "Le vote est facultatif mais important, il permet de sécuriser le réseau Bpl. Les 51 délégués ayant le plus de votes du réseau sont chargés de vérifier et de forger les transactions dans les nouveaux blocs. Cette page peut être utilisée pour voter pour un délégué que vous soutenez."
+msgid "Voting is an optional, but important mechanism that keeps the BPL network secure. The 201 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks. This page can be used to cast your vote for\n                a delegate that you support."
+msgstr "Le vote est facultatif mais important, il permet de sécuriser le réseau BPL. Les 201 délégués ayant le plus de votes du réseau sont chargés de vérifier et de forger les transactions dans les nouveaux blocs. Cette page peut être utilisée pour voter pour un délégué que vous soutenez."
 
 msgid "Word"
 msgstr "Mot"
@@ -884,11 +884,11 @@ msgstr "envoyé avec succès !"
 msgid "you need at least 1 BPL to vote"
 msgstr "vous avez besoin d'au moins 1 BPL pour pouvoir voter"
 
-msgid "you need at least 25 BPL to register delegate"
-msgstr "vous devez avoir au moins 25 BPL pour devenir délégué"
+msgid "you need at least 10 BPL to register delegate"
+msgstr "vous devez avoir au moins 10 BPL pour devenir délégué"
 
-msgid "Voting is an optional, but important mechanism that keeps the Bpl network secure.\n                The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
-msgstr "Voter n'est pas obligatoire, il permet cependant de sécuriser le fonctionnement de la crypto-monnaie Bpl.\nLes 51 délégués avec le plus de votes ont pour objectif de vérifier et forger les transactions dans les blocs. \nCette page permet de voter pour un délégué de votre choix."
+msgid "Voting is an optional, but important mechanism that keeps the BPL network secure.\n                The 201 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
+msgstr "Voter n'est pas obligatoire, il permet cependant de sécuriser le fonctionnement de la crypto-monnaie BPL.\nLes 201 délégués avec le plus de votes ont pour objectif de vérifier et forger les transactions dans les blocs. \nCette page permet de voter pour un délégué de votre choix."
 
 msgid "you need at least 5 BPL to create a second passphrase"
 msgstr "5 BPL sont nécessaires pour pouvoir créer une deuxième phrase secrète"
