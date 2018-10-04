@@ -4,7 +4,7 @@
     <img src="./banner.png" />
 </p>
 
-[![Build Status](https://badgen.now.sh/travis/blockpool-io/bpl-desktop)](https://travis-ci.org/blockpool-io/bpl-desktop)
+[![Build Status](https://badgen.now.sh/travis/blockpool-io/BPL-desktop)](https://travis-ci.org/blockpool-io/BPL-desktop)
 [![Github Latest Release](https://badgen.now.sh/github/release/blockpool-io/bpl-desktop)](https://github.com/blockpool-io/bpl-desktop/releases/latest)
 [![Github Downloads](https://badgen.now.sh/github/assets-dl/blockpool-io/bpl-desktop)](https://github.com/blockpool-io/bpl-desktop/releases/latest)
 [![License: MIT](https://badgen.now.sh/badge/license/MIT)](https://opensource.org/licenses/MIT)
