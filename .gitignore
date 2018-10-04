@@ -2,7 +2,7 @@ node_modules
 *.swp
 *.un~
 *.zip
-BPL\ Client-*
+BPL\ Wallet-*
 .tags
 dist/
 npm-debug.log
