@@ -27,7 +27,7 @@
     "url": "git+https://github.com/blockpool-io/BPL-desktop.git"
   },
   "keywords": [
-    "Bpl",
+    "BPL",
     "Client",
     "Electron"
   ],
@@ -118,7 +118,7 @@
       ]
     },
     "deb": {
-      "synopsis": "Bpl Desktop Wallet"
+      "synopsis": "BPL Desktop Wallet"
     },
     "dmg": {
       "icon": "build/icon.icns"

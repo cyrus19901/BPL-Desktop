@@ -122,7 +122,7 @@ msgid "Are you sure?"
 msgstr ""
 
 #: client/app/index.html:5
-msgid "Bpl Client"
+msgid "BPL Client"
 msgstr ""
 
 #: client/app/src/accounts/view/manageBackground.html:13
@@ -630,7 +630,7 @@ msgid "Passphrase does not match your address"
 msgstr ""
 
 #: client/app/src/accounts/view/importAccount.html:16
-msgid "Passphrase is <strong>case sensitive</strong>, each character change will result in importing a different Bpl address! Passphrases are <strong>not saved</strong> on this computer so always make sure you have them <strong>backed up safely!</strong>"
+msgid "Passphrase is <strong>case sensitive</strong>, each character change will result in importing a different BPL address! Passphrases are <strong>not saved</strong> on this computer so always make sure you have them <strong>backed up safely!</strong>"
 msgstr ""
 
 #: client/app/src/accounts/account.service.js:492
@@ -736,7 +736,7 @@ msgid "Quit"
 msgstr ""
 
 #: client/app/src/accounts/account.controller.js:140
-msgid "Quit Bpl Client?"
+msgid "Quit BPL Client?"
 msgstr ""
 
 #: client/app/src/components/account/delegate-tab.html:12
@@ -746,7 +746,7 @@ msgid "Rank"
 msgstr ""
 
 #: client/app/src/accounts/account.service.js:243
-msgid "Receive Bpl"
+msgid "Receive BPL"
 msgstr ""
 
 #: client/app/src/components/account/templates/account-card.html:7
@@ -1073,7 +1073,7 @@ msgstr ""
 
 #: client/app/src/components/account/votes-tab.html:100
 msgid ""
-"Voting is an optional, but important mechanism that keeps the Bpl network secure. The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks. This page can be used to cast your vote for\n"
+"Voting is an optional, but important mechanism that keeps the BPL network secure. The 201 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks. This page can be used to cast your vote for\n"
 "      a delegate that you support."
 msgstr ""
 
@@ -1137,7 +1137,7 @@ msgid "you need at least 1 BPL to vote"
 msgstr ""
 
 #: client/app/src/accounts/account.service.js:534
-msgid "you need at least 25 BPL to register delegate"
+msgid "you need at least 10 BPL to register delegate"
 msgstr ""
 
 #: client/app/src/accounts/account.service.js:499

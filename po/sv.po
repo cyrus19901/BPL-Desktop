@@ -227,8 +227,8 @@ msgstr "Verifiera"
 msgid "Verify Message"
 msgstr "Verifiera meddelande"
 
-msgid "Voting is an optional, but important mechanism that keeps the Bpl network secure. The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks. This page can be used to cast your vote for\n                a delegate that you support."
-msgstr "Att rösta är frivilligt, men en viktig mekanism som säkrar Bpl-nätverket.  De 51 delegater med flest röster från nätverket är ansvariga för att verifiera och skapa transaktioner i nya block. På denna sida kan du rösta på den delegat som du vill stödja."
+msgid "Voting is an optional, but important mechanism that keeps the BPL network secure. The 201 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks. This page can be used to cast your vote for\n                a delegate that you support."
+msgstr "Att rösta är frivilligt, men en viktig mekanism som säkrar BPL-nätverket.  De 201 delegater med flest röster från nätverket är ansvariga för att verifiera och skapa transaktioner i nya block. På denna sida kan du rösta på den delegat som du vill stödja."
 
 msgid "Word"
 msgstr "Ord"
@@ -245,8 +245,8 @@ msgstr "från"
 msgid "productivity"
 msgstr "produktivitet"
 
-msgid "Voting is an optional, but important mechanism that keeps the Bpl network secure.\n                The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
-msgstr "Att rösta är frivilligt, men en viktig mekanism som säkrar Bpl-nätverket.\n\nDe 51 delegater med flest röster från nätverket är ansvariga för att verifiera och skapa transaktioner i nya block.\n\nPå denna sida kan du rösta på den delegat som du vill stödja."
+msgid "Voting is an optional, but important mechanism that keeps the BPL network secure.\n                The 201 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
+msgstr "Att rösta är frivilligt, men en viktig mekanism som säkrar BPL-nätverket.\n\nDe 201 delegater med flest röster från nätverket är ansvariga för att verifiera och skapa transaktioner i nya block.\n\nPå denna sida kan du rösta på den delegat som du vill stödja."
 
 msgid "you need at least 5 BPL to create a second passphrase"
 msgstr "du behöver minst 5 BPL för att skapa en andra lösenordsfras"

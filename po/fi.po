@@ -104,8 +104,8 @@ msgstr "Arabia"
 msgid "Are you sure?"
 msgstr "Oletko varma?"
 
-msgid "Bpl Client"
-msgstr "Bpl Asiakasohjelma"
+msgid "BPL Client"
+msgstr "BPL Asiakasohjelma"
 
 msgid "Background"
 msgstr "Tausta"
@@ -512,14 +512,14 @@ msgstr "QR Skanneri"
 msgid "Quit"
 msgstr "Poistu"
 
-msgid "Quit Bpl Client?"
-msgstr "Sulje Bpl Pääteohjelma?"
+msgid "Quit BPL Client?"
+msgstr "Sulje BPL Pääteohjelma?"
 
 msgid "Rank"
 msgstr "Asema"
 
-msgid "Receive Bpl"
-msgstr "Vastaanota Bpl'ia"
+msgid "Receive BPL"
+msgstr "Vastaanota BPL'ia"
 
 msgid "Register Delegate"
 msgstr "Rekisteröi Edustajaksi"
@@ -581,11 +581,11 @@ msgstr "Lähetä"
 msgid "Send All"
 msgstr "Lähetä Kaikki"
 
-msgid "Send Bpl"
-msgstr "Lähetä Bpl'ia"
+msgid "Send BPL"
+msgstr "Lähetä BPL'ia"
 
-msgid "Send Bpl from"
-msgstr "Lähetä Bpl'ia ..."
+msgid "Send BPL from"
+msgstr "Lähetä BPL'ia ..."
 
 msgid "Set"
 msgstr "Määritä"
@@ -716,8 +716,8 @@ msgstr "Äännestä"
 msgid "Votes"
 msgstr "Äänet"
 
-msgid "Voting is an optional, but important mechanism that keeps the Bpl network secure. The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks. This page can be used to cast your vote for\n                a delegate that you support."
-msgstr "Äänestäminen on valinnainen mutta tärkeä mekanismi, joka pitää Bpl-verkon turvattuna. Verkoston 51 eniten ääniä saanutta edustajaa (delegaattia) ovat vastuussa tilitapahtumien tarkastamisesta sekä tapahtumien tallentamisesta uusiin lohkoihin. Tällä sivulla voit antaa äänesi tukemalle edustajallesi."
+msgid "Voting is an optional, but important mechanism that keeps the BPL network secure. The 201 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks. This page can be used to cast your vote for\n                a delegate that you support."
+msgstr "Äänestäminen on valinnainen mutta tärkeä mekanismi, joka pitää BPL-verkon turvattuna. Verkoston 201 eniten ääniä saanutta edustajaa (delegaattia) ovat vastuussa tilitapahtumien tarkastamisesta sekä tapahtumien tallentamisesta uusiin lohkoihin. Tällä sivulla voit antaa äänesi tukemalle edustajallesi."
 
 msgid "Word"
 msgstr "Sana"
@@ -767,11 +767,11 @@ msgstr "lähetetty onnistuneesti!"
 msgid "you need at least 1 BPL to vote"
 msgstr "tarvitset vähintään 1.0 BPL'ia äänestääksesi"
 
-msgid "you need at least 25 BPL to register delegate"
-msgstr "tarvitset vähintään 25 BPL'ia rekisteröityäksesi edustajaksi"
+msgid "you need at least 10 BPL to register delegate"
+msgstr "tarvitset vähintään 10 BPL'ia rekisteröityäksesi edustajaksi"
 
-msgid "Voting is an optional, but important mechanism that keeps the Bpl network secure.\n                The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
-msgstr "Äänestäminen on valinnainen mutta tärkeä mekanismi, joka pitää Bpl-verkon turvattuna.\nVerkoston 51 eniten ääniä saanutta edustajaa (delegaattia) ovat vastuussa tilitapahtumien tarkastamisesta sekä tapahtumien tallentamisesta uusiin lohkoihin.\nTällä sivulla voit antaa äänesi tukemalle edustajallesi."
+msgid "Voting is an optional, but important mechanism that keeps the BPL network secure.\n                The 201 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
+msgstr "Äänestäminen on valinnainen mutta tärkeä mekanismi, joka pitää BPL-verkon turvattuna.\nVerkoston 201 eniten ääniä saanutta edustajaa (delegaattia) ovat vastuussa tilitapahtumien tarkastamisesta sekä tapahtumien tallentamisesta uusiin lohkoihin.\nTällä sivulla voit antaa äänesi tukemalle edustajallesi."
 
 msgid "you need at least 5 BPL to create a second passphrase"
 msgstr "tarvitset vähintään 5 BPL'ia luodaksesi toisen tunnuslauseen"

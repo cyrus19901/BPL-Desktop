@@ -47,7 +47,7 @@ msgstr "Persetujuan"
 msgid "Are you sure?"
 msgstr "Anda Yakin?"
 
-msgid "Bpl Client"
+msgid "BPL Client"
 msgstr "Client BPL"
 
 msgid "Balance"
@@ -275,14 +275,14 @@ msgstr "Produktifitas"
 msgid "Quit"
 msgstr "Berhenti"
 
-msgid "Quit Bpl Client?"
-msgstr "Keluar dari Client Bpl?"
+msgid "Quit BPL Client?"
+msgstr "Keluar dari Client BPL?"
 
 msgid "Rank"
 msgstr "Peringkat"
 
-msgid "Receive Bpl"
-msgstr "Terima Bpl"
+msgid "Receive BPL"
+msgstr "Terima BPL"
 
 msgid "Register Delegate"
 msgstr "Daftar Delegasi"
@@ -311,10 +311,10 @@ msgstr "Kata sandi Kedua"
 msgid "Send"
 msgstr "Kirim"
 
-msgid "Send Bpl"
+msgid "Send BPL"
 msgstr "Kirim BPL"
 
-msgid "Send Bpl from"
+msgid "Send BPL from"
 msgstr "Kirim BPL dari"
 
 msgid "Set"
@@ -398,6 +398,6 @@ msgstr "Berhasil dikirim!"
 msgid "you need at least 1 BPL to vote"
 msgstr "Anda memerlukan setidaknya 1 BPL untuk melakukan vote"
 
-msgid "you need at least 25 BPL to register delegate"
-msgstr "Anda memerlukan setidaknya 25 BPL untuk mendaftar delegasi"
+msgid "you need at least 10 BPL to register delegate"
+msgstr "Anda memerlukan setidaknya 10 BPL untuk mendaftar delegasi"
 

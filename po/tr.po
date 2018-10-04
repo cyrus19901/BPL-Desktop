@@ -62,9 +62,9 @@ msgstr "Dosya Aç"
 msgid "This account already has a second passphrase:"
 msgstr "Bu hesap için önceden tanımlanmış ikinci bir parola zaten mevcut."
 
-msgid "Voting is an optional, but important mechanism that keeps the Bpl network secure.\n                The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
-msgstr "Oylama isteğe bağlı olmakla birlikte Bpl Network işlemlerinin güvenli yapılması açısından önemli bir mekanizmadır. \nEn fazla oy almış 51 delege işlemleri onaylamak ve bunları yeni bloklar içerisine kaydetmekle sorumludurlar.\nBu sayfayı desteklediğiniz bir delegeye oy vermek için kullanabilirsiniz."
+msgid "Voting is an optional, but important mechanism that keeps the BPL network secure.\n                The 201 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
+msgstr "Oylama isteğe bağlı olmakla birlikte BPL Network işlemlerinin güvenli yapılması açısından önemli bir mekanizmadır. \nEn fazla oy almış 201 delege işlemleri onaylamak ve bunları yeni bloklar içerisine kaydetmekle sorumludurlar.\nBu sayfayı desteklediğiniz bir delegeye oy vermek için kullanabilirsiniz."
 
 msgid "you need at least 5 BPL to create a second passphrase"
-msgstr "İkinci bir parola oluşturabilmek için en az 5 Bpl sahibi olmanız gerekiyor."
+msgstr "İkinci bir parola oluşturabilmek için en az 5 BPL sahibi olmanız gerekiyor."
 

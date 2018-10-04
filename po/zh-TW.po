@@ -47,8 +47,8 @@ msgstr "批准"
 msgid "Are you sure?"
 msgstr "你確定？"
 
-msgid "Bpl Client"
-msgstr "ARK客戶端"
+msgid "BPL Client"
+msgstr "BPL客戶端"
 
 msgid "Balance"
 msgstr "结余"
@@ -216,7 +216,7 @@ msgid "No search term"
 msgstr "沒有搜索字詞"
 
 msgid "Not enough BPL on your account"
-msgstr "您的賬戶沒有足夠的ARK"
+msgstr "您的賬戶沒有足夠的BPL"
 
 msgid "OffChain"
 msgstr "離鏈"
@@ -275,14 +275,14 @@ msgstr "生產率"
 msgid "Quit"
 msgstr "退出"
 
-msgid "Quit Bpl Client?"
-msgstr "退出ARK客戶端？"
+msgid "Quit BPL Client?"
+msgstr "退出BPL客戶端？"
 
 msgid "Rank"
 msgstr "排名"
 
-msgid "Receive Bpl"
-msgstr "接收ARK"
+msgid "Receive BPL"
+msgstr "BPL"
 
 msgid "Register Delegate"
 msgstr "註冊受託人"
@@ -311,10 +311,10 @@ msgstr "二級密碼"
 msgid "Send"
 msgstr "發送"
 
-msgid "Send Bpl"
-msgstr "發送Ark"
+msgid "Send BPL"
+msgstr "發送BPL"
 
-msgid "Send Bpl from"
+msgid "Send BPL from"
 msgstr "設置"
 
 msgid "Set"
@@ -396,8 +396,8 @@ msgid "sent with success!"
 msgstr "發送成功！"
 
 msgid "you need at least 1 BPL to vote"
-msgstr "您需要至少1 ARK投票"
+msgstr "您需要至少1 BPL投票"
 
-msgid "you need at least 25 BPL to register delegate"
-msgstr "你需要至少25個ARK來註冊受託人"
+msgid "you need at least 10 BPL to register delegate"
+msgstr "你需要至少10個BPL來註冊受託人"
 

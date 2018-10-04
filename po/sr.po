@@ -104,7 +104,7 @@ msgstr "Арапски"
 msgid "Are you sure?"
 msgstr "Јесте ли сигурни?"
 
-msgid "Bpl Client"
+msgid "BPL Client"
 msgstr "BPL клијент"
 
 msgid "Background"
@@ -512,13 +512,13 @@ msgstr "QR скенер"
 msgid "Quit"
 msgstr "Излаз"
 
-msgid "Quit Bpl Client?"
+msgid "Quit BPL Client?"
 msgstr "Изађи ит BPL клијента?"
 
 msgid "Rank"
 msgstr "Место"
 
-msgid "Receive Bpl"
+msgid "Receive BPL"
 msgstr "Прими BPL"
 
 msgid "Register Delegate"
@@ -581,10 +581,10 @@ msgstr "Шаљи"
 msgid "Send All"
 msgstr "Шаљи све"
 
-msgid "Send Bpl"
+msgid "Send BPL"
 msgstr "Шаљи BPL"
 
-msgid "Send Bpl from"
+msgid "Send BPL from"
 msgstr "Шаљи BPL од"
 
 msgid "Set"
@@ -716,8 +716,8 @@ msgstr "Гласај"
 msgid "Votes"
 msgstr "Гласови"
 
-msgid "Voting is an optional, but important mechanism that keeps the Bpl network secure. The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks. This page can be used to cast your vote for\n                a delegate that you support."
-msgstr "Гласање је опцијски али уједно и значајан механизам који одржава безбедност BPL мреже. 51 делегата са највише гласова од учесника мреже је одговорно за оверавање и ковање трансакција у нове блокове.\nОвде можете дати свој глас делегату којег подржавате."
+msgid "Voting is an optional, but important mechanism that keeps the BPL network secure. The 201 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks. This page can be used to cast your vote for\n                a delegate that you support."
+msgstr "Гласање је опцијски али уједно и значајан механизам који одржава безбедност BPL мреже. 201 делегата са највише гласова од учесника мреже је одговорно за оверавање и ковање трансакција у нове блокове.\nОвде можете дати свој глас делегату којег подржавате."
 
 msgid "Word"
 msgstr "Реч"
@@ -767,11 +767,11 @@ msgstr "успешно послано!"
 msgid "you need at least 1 BPL to vote"
 msgstr "потребан је најмање 1 BPL за гласанје"
 
-msgid "you need at least 25 BPL to register delegate"
-msgstr "потребно је најмање 25 BPL за регистрацију делегата"
+msgid "you need at least 10 BPL to register delegate"
+msgstr "потребно је најмање 10 BPL за регистрацију делегата"
 
-msgid "Voting is an optional, but important mechanism that keeps the Bpl network secure.\n                The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
-msgstr "Гласање је опцијски али уједно и значајан механизам који одржава безбедност BPL мреже.\n51 делегата са највише гласова од учесника мреже је одговорно за оверавање и ковање трансакција у нове блокове.\nОвде можете дати свој глас делегату којег подржавате."
+msgid "Voting is an optional, but important mechanism that keeps the BPL network secure.\n                The 201 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
+msgstr "Гласање је опцијски али уједно и значајан механизам који одржава безбедност BPL мреже.\n201 делегата са највише гласова од учесника мреже је одговорно за оверавање и ковање трансакција у нове блокове.\nОвде можете дати свој глас делегату којег подржавате."
 
 msgid "you need at least 5 BPL to create a second passphrase"
 msgstr "Потребно вам је станје најмање 5 BPL за стварање додатне лозинке"

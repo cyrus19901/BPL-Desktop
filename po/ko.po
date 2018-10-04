@@ -110,7 +110,7 @@ msgstr "아랍어"
 msgid "Are you sure?"
 msgstr "확실합니까?"
 
-msgid "Bpl Client"
+msgid "BPL Client"
 msgstr "아크 클라이언트"
 
 msgid "Background"
@@ -527,13 +527,13 @@ msgstr "QR 스캐너"
 msgid "Quit"
 msgstr "끝내기"
 
-msgid "Quit Bpl Client?"
+msgid "Quit BPL Client?"
 msgstr "아크 클라이언트를 종료할까요?"
 
 msgid "Rank"
 msgstr "순위"
 
-msgid "Receive Bpl"
+msgid "Receive BPL"
 msgstr "아크 받기"
 
 msgid "Register Delegate"
@@ -596,13 +596,13 @@ msgstr "보내기"
 msgid "Send All"
 msgstr "모두에게 보내기"
 
-msgid "Send Bpl"
+msgid "Send BPL"
 msgstr "아크 보내기"
 
 msgid "Serbian"
 msgstr "세르비아어"
 
-msgid "Send Bpl from"
+msgid "Send BPL from"
 msgstr "~으로부터 아크 보내기"
 
 msgid "Set"
@@ -743,8 +743,8 @@ msgstr "투표"
 msgid "Votes"
 msgstr "투표"
 
-msgid "Voting is an optional, but important mechanism that keeps the Bpl network secure. The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks. This page can be used to cast your vote for\n                a delegate that you support."
-msgstr "투표를 꼭 하실 필요는 없지만 투표는 아크 네트워크의 안정화에 기여합니다. \n가장 많은 투표를 받은 51명의 대표자에게는 새로운 블록들을 검증하고 생성할 책임이 주어집니다. \n현재 페이지에서 여러분들이 지지하는 대표자에게 투표를 하실 수 있습니다."
+msgid "Voting is an optional, but important mechanism that keeps the BPL network secure. The 201 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks. This page can be used to cast your vote for\n                a delegate that you support."
+msgstr "투표를 꼭 하실 필요는 없지만 투표는 아크 네트워크의 안정화에 기여합니다. \n가장 많은 투표를 받은 201명의 대표자에게는 새로운 블록들을 검증하고 생성할 책임이 주어집니다. \n현재 페이지에서 여러분들이 지지하는 대표자에게 투표를 하실 수 있습니다."
 
 msgid "Word"
 msgstr "단어"
@@ -794,11 +794,11 @@ msgstr "성공적으로 보내졌습니다."
 msgid "you need at least 1 BPL to vote"
 msgstr "투표하기 위해 적어도 1아크가 필요합니다."
 
-msgid "you need at least 25 BPL to register delegate"
-msgstr "대표자로 등록하기 위해 적어도 25아크가 필요합니다. "
+msgid "you need at least 10 BPL to register delegate"
+msgstr "대표자로 등록하기 위해 적어도 10아크가 필요합니다. "
 
-msgid "Voting is an optional, but important mechanism that keeps the Bpl network secure.\n                The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
-msgstr "투표는 필수사항이 아닙니다. 단, 투표는 아크 네트워크 안정화에 중요한 역할을 합니다.\n표를 가장 많이 획득한 51명이 대표로 선정되어 새로운 블럭에 대한 거래를 확인하고 구축해나가는 책임이 주어집니다.\n현재 페이지에서 여러분들이 지지하는 대표후보에게 투표하실 수 있습니다."
+msgid "Voting is an optional, but important mechanism that keeps the BPL network secure.\n                The 201 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
+msgstr "투표는 필수사항이 아닙니다. 단, 투표는 아크 네트워크 안정화에 중요한 역할을 합니다.\n표를 가장 많이 획득한 201명이 대표로 선정되어 새로운 블럭에 대한 거래를 확인하고 구축해나가는 책임이 주어집니다.\n현재 페이지에서 여러분들이 지지하는 대표후보에게 투표하실 수 있습니다."
 
 msgid "you need at least 5 BPL to create a second passphrase"
 msgstr "2차 보안문구를 생성하기 위해서는 최소 5 BPL 가 필요합니다."

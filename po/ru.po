@@ -44,8 +44,8 @@ msgstr "Количество (Ѧ)"
 msgid "Are you sure?"
 msgstr "Вы уверены?"
 
-msgid "Bpl Client"
-msgstr "Клиент Bpl"
+msgid "BPL Client"
+msgstr "Клиент BPL"
 
 msgid "Balance"
 msgstr "Баланс"
@@ -242,11 +242,11 @@ msgstr "Производительность"
 msgid "Quit"
 msgstr "Выход"
 
-msgid "Quit Bpl Client?"
-msgstr "Завершить клиент Bpl?"
+msgid "Quit BPL Client?"
+msgstr "Завершить клиент BPL?"
 
-msgid "Receive Bpl"
-msgstr "Получить Bpl"
+msgid "Receive BPL"
+msgstr "Получить BPL"
 
 msgid "Remove"
 msgstr "Удалить"
@@ -269,11 +269,11 @@ msgstr "Дополнительный пароль"
 msgid "Send"
 msgstr "Отправить"
 
-msgid "Send Bpl"
-msgstr "Отправить Bpl"
+msgid "Send BPL"
+msgstr "Отправить BPL"
 
-msgid "Send Bpl from"
-msgstr "Отправить Bpl из"
+msgid "Send BPL from"
+msgstr "Отправить BPL из"
 
 msgid "Set"
 msgstr "Установить"
@@ -339,8 +339,8 @@ msgid "sent with success!"
 msgstr "отправлено успешно!"
 
 msgid "you need at least 1 BPL to vote"
-msgstr "Для голосования необходимо иметь хотя бы 1ARK"
+msgstr "Для голосования необходимо иметь хотя бы 1BPL"
 
-msgid "you need at least 25 BPL to register delegate"
-msgstr "вам нужно как минимум 25 BPL для регистрации делегата"
+msgid "you need at least 10 BPL to register delegate"
+msgstr "вам нужно как минимум 10 BPL для регистрации делегата"
 
