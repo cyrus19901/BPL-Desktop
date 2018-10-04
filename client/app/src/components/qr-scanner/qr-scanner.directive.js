@@ -7,8 +7,8 @@
     function controller ($scope) {
       $scope.hasWebcam = function () {
         navigator.mediaDevices.enumerateDevices()
-          .then(function (MediaDeviceInfo) {
-            MediaDeviceInfo.forEach(function (info) {
+          .then((MediaDeviceInfo) => {
+            MediaDeviceInfo.forEach((info) => {
               if (info.kind === 'videoinput') return true
             })
           })
@@ -23,7 +23,7 @@
 
         $scope.$parent.send.data[$scope.inputCallback] = result.qr
 
-        $timeout(function () {
+        $timeout(() => {
           $mdDialog.hide()
         }, 100)
       }
@@ -31,7 +31,7 @@
       $scope.onError = function (error) {
         toastService.error(error.error)
 
-        $timeout(function () {
+        $timeout(() => {
           $mdDialog.hide()
         }, 100)
       }

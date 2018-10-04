@@ -27,8 +27,8 @@
         </tr>
         <tr md-row md-select="transaction" md-select-id="id" md-auto-select ng-repeat="it in $ctrl.transactionsCtrl.transactions | orderBy: query.order | limitTo: $ctrl.transactionsCtrl.pageSize track by it.id">
           <td md-cell><a ng-click="$ctrl.ul.openExplorer('/tx/'+it.id)" md-colors="::{color: '{{ $ctrl.ul.network.themeDark ? 'background-200' : 'background-800' }}'}">{{it.id | smallId}}</a></td>
-          <td md-cell ng-if="it.confirmations <= 50">{{it.confirmations}}</td>
-          <td md-cell ng-if="it.confirmations > 50">
+          <td md-cell ng-if="it.confirmations <= 200">{{it.confirmations}}</td>
+          <td md-cell ng-if="it.confirmations > 200">
             <translate>Well Confirmed</translate>
             <md-tooltip>{{it.confirmations | number: 0}} <translate>Confirmations</translate></md-tooltip>
           </td>

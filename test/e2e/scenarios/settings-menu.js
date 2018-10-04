@@ -2,37 +2,37 @@
 
 const hooks = require('../hooks')
 
-describe('Settings menu', function () {
+describe('Settings menu', () => {
   hooks.createApp.bind(this)()
 
-  before(function () {
+  before(() => {
     return hooks.beforeBlock.bind(this)()
   })
 
-  after(function () {
+  after(() => {
     return hooks.afterBlock.bind(this)()
   })
 
-  describe('setting to play sound', function () {
+  describe('setting to play sound', () => {
     const playSoundSelector = 'md-switch[aria-label="Play sound when receiving transactions?"]'
 
-    before(function () {
-      this.app.client.addCommand('clickPlaySound', function () {
+    before(() => {
+      this.app.client.addCommand('clickPlaySound', () => {
         return this
           .openSettingsMenu()
           .click(playSoundSelector)
           .pause(1000)
       })
 
-      this.app.client.addCommand('getPlaySoundState', function () {
+      this.app.client.addCommand('getPlaySoundState', () => {
         return this.getAttribute(playSoundSelector, 'aria-checked')
       })
     })
 
-    context('when is clicked', function () {
+    context('when is clicked', () => {
       let wasEnabled
 
-      before(function () {
+      before(() => {
         return this.app.client.getLocalStorage('storage-mainnet')
           .then(storage => {
             wasEnabled = storage.playFundsReceivedSound
@@ -40,7 +40,7 @@ describe('Settings menu', function () {
           })
       })
 
-      it('toggles the button', function () {
+      it('toggles the button', () => {
         const isEnabled = this.app.client.getPlaySoundState()
         if (wasEnabled) {
           return (isEnabled).should.not.be
@@ -49,7 +49,7 @@ describe('Settings menu', function () {
         }
       })
 
-      it('stores the new state inmediatly', function () {
+      it('stores the new state inmediatly', () => {
         return this.app.client.getLocalStorage('storage-mainnet')
           .then(storage => {
             if (wasEnabled) {

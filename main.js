@@ -19,16 +19,16 @@ const windowStateKeeper = require('electron-window-state')
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow
 
-var ledgercomm
+let ledgercomm
 
 // needed to create menu/update it.
-var menu = null
-var enableScreenshotProtection = true
-var template = null
+let menu = null
+let enableScreenshotProtection = true
+let template = null
 
 function createWindow () {
   // Create the browser window.t
-  var iconpath = require('path').resolve(__dirname, '/client/bpl.png')
+  const iconpath = require('path').resolve(__dirname, '/client/bpl.png')
   let {width, height} = electron.screen.getPrimaryDisplay().workAreaSize
 
   let mainWindowState = windowStateKeeper({
@@ -45,7 +45,7 @@ function createWindow () {
     mainWindow.show()
   })
 
-  var ledgerWorker = fork(`${__dirname}/ledger-worker.js`)
+  const ledgerWorker = fork(`${__dirname}/ledger-worker.js`)
 
   ledgerWorker.on('message', (message) => {
     if (message.connected && !ledgercomm) {
@@ -90,7 +90,7 @@ function createWindow () {
                 event.returnValue = result
               })
               .fail((error) => {
-                var result = {
+                const result = {
                   connected: false,
                   message: error
                 }
@@ -106,7 +106,7 @@ function createWindow () {
             ledgercomm.close_async()
           }
           ledgercomm = null
-          var result = {
+          const result = {
             connected: false,
             message: 'Cannot connect to BPL application'
           }

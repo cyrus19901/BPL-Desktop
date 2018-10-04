@@ -2,17 +2,17 @@
   'use strict'
 
   angular.module('bplclient.filters')
-    .filter('smallId', function () {
+    .filter('smallId', () => {
       return function (fullId) {
         return fullId.slice(0, 5) + '...' + fullId.slice(-5)
       }
     })
-    .filter('exchangedate', function () {
+    .filter('exchangedate', () => {
       return function (exchangetime) {
         return new Date(exchangetime * 1000)
       }
     })
-    .filter('amountToCurrency', function () {
+    .filter('amountToCurrency', () => {
       return function (amount, scope, bitcoinToggleIsActive) {
         if (typeof amount === 'undefined' || !amount) return 0
         // NOTE AccountController is being renaming to `ac` in refactored templates
@@ -22,17 +22,17 @@
         return (amount * price).toFixed(5)
       }
     })
-    .filter('formatCurrency', function () {
+    .filter('formatCurrency', () => {
       return function (val, self, bitcoinToggleIsActive) {
-        var currencyName = bitcoinToggleIsActive && self.btcValueActive ? 'btc' : self.currency.name
-        var languageCode = self.language.replace('_', '-')
-        var options = {
+        const currencyName = bitcoinToggleIsActive && self.btcValueActive ? 'btc' : self.currency.name
+        const languageCode = self.language.replace('_', '-')
+        const options = {
           style: 'currency',
           currency: currencyName,
           currencyDisplay: 'symbol'
         }
 
-        var localeVersion
+        let localeVersion
 
         if (currencyName === 'btc') {
           let value = String(val).length > 8 ? Number(val).toFixed(8) : val
@@ -44,10 +44,10 @@
         return localeVersion
       }
     })
-  // converts bpltoshi into bpl
-  .filter('convertToBplValue', ['BPLTOSHI_UNIT', function (BPLTOSHI_UNIT) {
-    return function (val) {
-      return val / BPLTOSHI_UNIT
-    }
-  }])
+    // converts bpltoshi into bpl
+    .filter('convertToBplValue', ['BPLTOSHI_UNIT', function (BPLTOSHI_UNIT) {
+      return function (val) {
+        return val / BPLTOSHI_UNIT
+      }
+    }])
 })()

@@ -5,7 +5,7 @@
  * more pieces, such as components and services
  */
 
-describe('AccountController', function () {
+describe('AccountController', () => {
   const expect = chai.expect
 
   let ctrl,
@@ -110,27 +110,27 @@ describe('AccountController', function () {
   })
 
   describe('', () => {
-    xit('loads all the accounts', function () {
+    xit('loads all the accounts', () => {
     })
   })
 
   describe('getAllAccounts()', () => {
-    beforeEach(function () {
+    beforeEach(() => {
       sinon.stub(ctrl, 'myAccounts').returns(accounts)
     })
 
     context("when there aren't any ledger accounts", () => {
-      it('returns the user accounts only', function () {
+      it('returns the user accounts only', () => {
         expect(ctrl.getAllAccounts()).to.have.same.members(accounts)
       })
     })
 
     context('when there are ledger accounts', () => {
-      beforeEach(function () {
+      beforeEach(() => {
         ctrl.ledgerAccounts = ['ledgerAccount1', 'ledgerAccoun2']
       })
 
-      it('returns the user and the ledger accounts', function () {
+      it('returns the user and the ledger accounts', () => {
         expect(ctrl.getAllAccounts()).to.have.members(accounts.concat(ctrl.ledgerAccounts))
       })
     })

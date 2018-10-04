@@ -23,7 +23,7 @@
        * Fetches and parses the RSS of blockpool.io
        */
       fetchBlogEntries () {
-        const rssUrl = 'https://medium.com/blockpool'
+        const rssUrl = 'https://medium.com/feed/blockpool'
         return this.fetchAndParse(rssUrl).then(parsed => parsed.feed.entries)
       }
     }
