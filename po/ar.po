@@ -105,7 +105,7 @@ msgid "Are you sure?"
 msgstr "هل أنت متأكد؟"
 
 msgid "BPL Client"
-msgstr "عميل bpl"
+msgstr "عميل BPL"
 
 msgid "Background"
 msgstr "خلفية"
@@ -512,14 +512,14 @@ msgstr "رمز الرد السريع (QR)"
 msgid "Quit"
 msgstr "الخروج"
 
-msgid "Quit Bpl Client?"
-msgstr "الخروج من العميل Bpl?"
+msgid "Quit BPL Client?"
+msgstr "الخروج من العميل BPL?"
 
 msgid "Rank"
 msgstr "مرتبة"
 
-msgid "Receive Bpl"
-msgstr "تسلم Bpl"
+msgid "Receive BPL"
+msgstr "تسلم BPL"
 
 msgid "Register Delegate"
 msgstr "تسجيل المندوب"
@@ -581,11 +581,11 @@ msgstr "إرسال"
 msgid "Send All"
 msgstr "إرسال الكل"
 
-msgid "Send Bpl"
-msgstr "إرسال Bpl"
+msgid "Send BPL"
+msgstr "إرسال BPL"
 
-msgid "Send Bpl from"
-msgstr "إرسال Bpl من"
+msgid "Send BPL from"
+msgstr "إرسال BPL من"
 
 msgid "Set"
 msgstr "تعيين"
@@ -716,8 +716,8 @@ msgstr "صوت"
 msgid "Votes"
 msgstr "أصوات"
 
-msgid "Voting is an optional, but important mechanism that keeps the Bpl network secure. The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks. This page can be used to cast your vote for\n                a delegate that you support."
-msgstr "التصويت آلية اختيارية، لكنها مهمة تحافظ على شبكة آمنة. المندوبون ال 51 الذين حصلوا على أكبر عدد من الأصوات من الشبكة هم المسؤولون عن التحقق من المعاملات وإبرامها في كتل جديدة. يمكن استخدام هذه الصفحة للإدلاء بصوتك للمندوب الذي تدعمه."
+msgid "Voting is an optional, but important mechanism that keeps the BPL network secure. The 201 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks. This page can be used to cast your vote for\n                a delegate that you support."
+msgstr "التصويت آلية اختيارية، لكنها مهمة تحافظ على شبكة آمنة. المندوبون ال 201 الذين حصلوا على أكبر عدد من الأصوات من الشبكة هم المسؤولون عن التحقق من المعاملات وإبرامها في كتل جديدة. يمكن استخدام هذه الصفحة للإدلاء بصوتك للمندوب الذي تدعمه."
 
 msgid "Word"
 msgstr "كلمة"
@@ -767,11 +767,11 @@ msgstr "أرسلت بنجاح!"
 msgid "you need at least 1 BPL to vote"
 msgstr "تحتاج على الأقل 1 BPL  لكي تصوت"
 
-msgid "you need at least 25 BPL to register delegate"
-msgstr "تحتاج 25 أرك BPL على الأقل لتسجيل المندوب"
+msgid "you need at least 10 BPL to register delegate"
+msgstr "تحتاج 10 أرك BPL على الأقل لتسجيل المندوب"
 
-msgid "Voting is an optional, but important mechanism that keeps the Bpl network secure.\n                The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
-msgstr "التصويت آلية اختيارية، لكنها مهمة تحافظ على شبكة آمنة.\nالمندوبون ال 51 الذين حصلوا على أكبر عدد من الأصوات من الشبكة هم المسؤولون عن التحقق من المعاملات وإبرامها في كتل جديدة.\nيمكن استخدام هذه الصفحة للإدلاء بصوتك للمندوب الذي تدعمه."
+msgid "Voting is an optional, but important mechanism that keeps the BPL network secure.\n                The 201 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
+msgstr "التصويت آلية اختيارية، لكنها مهمة تحافظ على شبكة آمنة.\nالمندوبون ال 201 الذين حصلوا على أكبر عدد من الأصوات من الشبكة هم المسؤولون عن التحقق من المعاملات وإبرامها في كتل جديدة.\nيمكن استخدام هذه الصفحة للإدلاء بصوتك للمندوب الذي تدعمه."
 
 msgid "you need at least 5 BPL to create a second passphrase"
 msgstr "تحتاج إلى 5 أرك على الأقل لإنشاء عبارة مرور ثانية"

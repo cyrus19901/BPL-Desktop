@@ -10,7 +10,7 @@ const chaiAsPromised = require('chai-as-promised')
 const userData = require('./user_data')
 const commands = require('./commands')
 
-global.before(function () {
+global.before(() => {
   chai.should()
   chai.use(chaiAsPromised)
 })
@@ -21,7 +21,7 @@ const hooks = {
   createApp: function () {
     this.timeout(timeout)
 
-    before(function () {
+    before(() => {
       this.app = new Application({
         path: electron,
         args: [

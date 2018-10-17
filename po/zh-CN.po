@@ -53,8 +53,8 @@ msgstr "得票率"
 msgid "Are you sure?"
 msgstr "你确定？"
 
-msgid "Bpl Client"
-msgstr "Ark客户端"
+msgid "BPL Client"
+msgstr "BPL客户端"
 
 msgid "Balance"
 msgstr "余额"
@@ -222,7 +222,7 @@ msgid "No search term"
 msgstr "没有搜索字词"
 
 msgid "Not enough BPL on your account"
-msgstr "您的账户没有足够的ARK"
+msgstr "您的账户没有足够的BPL"
 
 msgid "OffChain"
 msgstr "离链"
@@ -284,14 +284,14 @@ msgstr "公钥"
 msgid "Quit"
 msgstr "退出"
 
-msgid "Quit Bpl Client?"
-msgstr "退出ARK客户端？"
+msgid "Quit BPL Client?"
+msgstr "退出BPL客户端？"
 
 msgid "Rank"
 msgstr "排名"
 
-msgid "Receive Bpl"
-msgstr "接收ARK"
+msgid "Receive BPL"
+msgstr "接收BPL"
 
 msgid "Register Delegate"
 msgstr "注册受托人"
@@ -320,11 +320,11 @@ msgstr "二级密码"
 msgid "Send"
 msgstr "发送"
 
-msgid "Send Bpl"
-msgstr "发送Ark"
+msgid "Send BPL"
+msgstr "发送BPL"
 
-msgid "Send Bpl from"
-msgstr "发送Ark从"
+msgid "Send BPL from"
+msgstr "发送BPL从"
 
 msgid "Set"
 msgstr "设置"
@@ -408,11 +408,11 @@ msgid "sent with success!"
 msgstr "发送成功！"
 
 msgid "you need at least 1 BPL to vote"
-msgstr "您需要至少1 ARK投票"
+msgstr "您需要至少1 BPL投票"
 
-msgid "you need at least 25 BPL to register delegate"
-msgstr "你需要至少25个ARK来注册受托人"
+msgid "you need at least 10 BPL to register delegate"
+msgstr "你需要至少10个BPL来注册受托人"
 
 msgid "you need at least 5 BPL to create a second passphrase"
-msgstr "你需要至少5ARK创建二级密码"
+msgstr "你需要至少5BPL创建二级密码"
 

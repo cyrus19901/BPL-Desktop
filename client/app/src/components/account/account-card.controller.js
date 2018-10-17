@@ -18,7 +18,7 @@
     })
 
   function AccountCardController ($scope, $mdDialog, $mdBottomSheet, gettextCatalog, accountService, storageService, BPLTOSHI_UNIT, toastService) {
-    this.$onInit = () => {
+    this.$onInit = function () {
       this.ul = this.accountCtrl
       this.ab = this.addressBookCtrl
     }
@@ -143,16 +143,14 @@
         toAddress: formData.toAddress,
         amount: parseInt((formData.amount * BPLTOSHI_UNIT).toFixed(0)),
         smartbridge: formData.smartbridge,
-        // Payload
-        // payload: formData.payload,
+        // Payload for vote
+        votePayload: formData.votePayload,
         masterpassphrase: formData.passphrase,
         secondpassphrase: formData.secondpassphrase
       })
         .then(transaction => {
           this.accountCtrl.showValidateTransaction(selectedAccount, transaction)
-        },
-        this.accountCtrl.formatAndToastError
-      )
+        }, this.accountCtrl.formatAndToastError)
     }
 
     /**
@@ -169,19 +167,19 @@
         secondpassphrase: passphrases[1] ? passphrases[1] : ''
       }
 
-      const openFile = () => {
-        var fs = require('fs')
+      const openFile = function () {
+        const fs = require('fs')
 
         require('electron').remote.dialog.showOpenDialog(fileNames => {
           if (fileNames === undefined) return
-          var fileName = fileNames[0]
+          const fileName = fileNames[0]
 
           fs.readFile(fileName, 'utf8', (err, data) => {
             if (err) {
               toastService.error('Unable to load file' + ': ' + err)
             } else {
               try {
-                var transaction = JSON.parse(data)
+                const transaction = JSON.parse(data)
 
                 if (transaction.type === undefined) {
                   return toastService.error('Invalid transaction file')
@@ -197,7 +195,7 @@
       }
 
       // testing goodies
-      // var data={
+      // const data={
       //   fromAddress: selectedAccount ? selectedAccount.address: '',
       //   secondSignature: selectedAccount ? selectedAccount.secondSignature: '',
       //   passphrase: 'insect core ritual alcohol clinic opera aisle dial entire dust symbol vintage',
@@ -206,17 +204,17 @@
       //   amount: 1,
       // }
       function totalBalance (minusFee) {
-        var fee = 10000000
-        var balance = selectedAccount.balance
+        const fee = 10000000
+        const balance = selectedAccount.balance
         return accountService.numberToFixed((minusFee ? balance - fee : balance) / BPLTOSHI_UNIT)
       }
 
       function fillSendableBalance () {
-        var sendableBalance = totalBalance(true)
+        const sendableBalance = totalBalance(true)
         $scope.send.data.amount = sendableBalance > 0 ? sendableBalance : 0
       }
 
-      const submit = () => {
+      const submit = function () {
         if (!$scope.sendBplForm.$valid) {
           return
         }
@@ -255,14 +253,14 @@
         let accounts = this.accountCtrl.getAllAccounts()
         let contacts = storageService.get('contacts') || []
 
-        contacts = contacts.concat(accounts).sort(function (a, b) {
+        contacts = contacts.concat(accounts).sort((a, b) => {
           if (a.name && b.name) return a.name < b.name
           else if (a.username && b.username) return a.username < b.username
           else if (a.username && b.name) return a.username < b.name
           else if (a.name && b.username) return a.name < b.username
         })
 
-        return contacts.filter(function (account) {
+        return contacts.filter((account) => {
           return (account.address.toLowerCase().indexOf(text) > -1) || (account.name && (account.name.toLowerCase().indexOf(text) > -1))
         })
       }

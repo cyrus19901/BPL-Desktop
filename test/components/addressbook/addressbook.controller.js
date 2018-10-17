@@ -1,6 +1,6 @@
 'use strict'
 
-describe('AddressbookController', function () {
+describe('AddressbookController', () => {
   const expect = chai.expect
 
   let ctrl,
@@ -34,7 +34,7 @@ describe('AddressbookController', function () {
       $provide.value('gettextCatalog', getTextCatalogMock)
       $provide.value('accountService', accountServiceMock)
       $provide.value('toastService', toastServiceMock)
-      $provide.value('BPLTOSHI_UNIT', Math.pow(10,8))
+      $provide.value('BPLTOSHI_UNIT', Math.pow(10, 8))
     })
 
     inject((_$compile_, _$rootScope_, _$controller_) => {
@@ -53,7 +53,7 @@ describe('AddressbookController', function () {
 
   describe('getContacts', () => {
     context('when contacts are valid', () => {
-      beforeEach(function () {
+      beforeEach(() => {
         storageServiceMock.get = sinon.stub().returns(['valid_contact'])
       })
 
@@ -66,7 +66,7 @@ describe('AddressbookController', function () {
     })
 
     context("when contacts aren't valid", () => {
-      beforeEach(function () {
+      beforeEach(() => {
         storageServiceMock.get = sinon.stub().returns(null)
       })
 

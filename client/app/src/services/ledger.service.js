@@ -9,13 +9,13 @@
    * @constructor
    */
   function LedgerService ($q, $http, $timeout, storageService, networkService) {
-    var ipcRenderer = require('electron').ipcRenderer
-    var bpljs = require('../node_modules/bpljs')
-    var bip39 = require('../node_modules/bip39')
-    var async = require('async')
+    const ipcRenderer = require('electron').ipcRenderer
+    const bpljs = require('../node_modules/bpljs')
+    const bip39 = require('../node_modules/bip39')
+    const async = require('async')
 
     function deriveAddress (path) {
-      var result = ipcRenderer.sendSync('ledger', {
+      const result = ipcRenderer.sendSync('ledger', {
         action: 'getAddress',
         path: path
       })
@@ -23,29 +23,29 @@
     }
 
     function getBip44Accounts (slip44) {
-      var deferred = $q.defer()
-      var accounts = []
-      var accountIndex = 0
-      var addressIndex = 0
-      var path = "44'/" + (slip44 || '111') + "'/"
-      var empty = false
+      const deferred = $q.defer()
+      const accounts = []
+      let accountIndex = 0
+      const addressIndex = 0
+      const path = "44'/" + (slip44 || '111') + "'/"
+      let empty = false
 
       async.whilst(
-        function () {
+        () => {
           return !empty
         },
-        function (next) {
-          var localpath = path + accountIndex + "'/0/" + addressIndex
-          var result = ipcRenderer.sendSync('ledger', {
+        (next) => {
+          const localpath = path + accountIndex + "'/0/" + addressIndex
+          const result = ipcRenderer.sendSync('ledger', {
             action: 'getAddress',
             path: localpath
           })
           if (result.address) {
             result.address = bpljs.crypto.getAddress(result.publicKey)
             accountIndex = accountIndex + 1
-            var account = storageService.get(result.address) || result
+            const account = storageService.get(result.address) || result
             account.ledger = localpath
-            var txs = storageService.get('transactions-' + account.address)
+            const txs = storageService.get('transactions-' + account.address)
             account.cold = !txs || txs.length === 0
             account.publicKey = result.publicKey
             storageService.set(account.address, account)
@@ -76,7 +76,7 @@
             next()
           }
         },
-        function (err) {
+        (err) => {
           if (err) {
             deferred.reject(err)
           } else {
@@ -89,26 +89,26 @@
     }
 
     function recoverBip44Accounts (backupLedgerPassphrase, slip44) {
-      var hdnode = bpljs.HDNode.fromSeedHex(bip39.mnemonicToSeedHex(backupLedgerPassphrase))
+      const hdnode = bpljs.HDNode.fromSeedHex(bip39.mnemonicToSeedHex(backupLedgerPassphrase))
 
-      var accounts = []
-      var accountIndex = 0
-      var addressIndex = 0
-      var path = "44'/" + (slip44 || '111') + "'/"
-      var empty = false
+      const accounts = []
+      let accountIndex = 0
+      const addressIndex = 0
+      const path = "44'/" + (slip44 || '111') + "'/"
+      let empty = false
 
       while (!empty) {
-        var localpath = path + accountIndex + "'/0/" + addressIndex
-        var keys = hdnode.derivePath(localpath).keyPair
-        var address = keys.getAddress()
+        const localpath = path + accountIndex + "'/0/" + addressIndex
+        const keys = hdnode.derivePath(localpath).keyPair
+        const address = keys.getAddress()
         accountIndex = accountIndex + 1
-        var account = storageService.get(address)
+        const account = storageService.get(address)
         if (account && !account.cold) {
           account.ledger = localpath
           storageService.set(address, account)
           accounts.push(account)
         } else {
-          var result = {
+          const result = {
             address: address,
             publicKey: keys.getPublicKeyBuffer().toString('hex'),
             ledger: localpath,
@@ -123,8 +123,8 @@
     }
 
     function signTransaction (path, transaction) {
-      var deferred = $q.defer()
-      ipcRenderer.once('transactionSigned', function (event, result) {
+      const deferred = $q.defer()
+      ipcRenderer.once('transactionSigned', (event, result) => {
         if (result.error) {
           deferred.reject(result.error)
         } else {
@@ -140,11 +140,11 @@
     }
 
     function signMessage (path, message) {
-      var deferred = $q.defer()
-      var crypto = require('crypto')
-      var hash = crypto.createHash('sha256')
+      const deferred = $q.defer()
+      const crypto = require('crypto')
+      let hash = crypto.createHash('sha256')
       hash = hash.update(Buffer.from(message, 'utf-8')).digest()
-      ipcRenderer.once('messageSigned', function (event, result) {
+      ipcRenderer.once('messageSigned', (event, result) => {
         if (result.error) {
           deferred.reject(result.error)
         } else {
@@ -160,14 +160,14 @@
     }
 
     function detect () {
-      var result = ipcRenderer.sendSync('ledger', {
+      const result = ipcRenderer.sendSync('ledger', {
         action: 'detect'
       })
       return result
     }
 
     function isAppLaunched () {
-      var result = ipcRenderer.sendSync('ledger', {
+      const result = ipcRenderer.sendSync('ledger', {
         action: 'getConfiguration'
       })
       return result

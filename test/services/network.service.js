@@ -1,10 +1,10 @@
 'use strict'
 
-describe('networkService', function () {
+describe('networkService', () => {
   beforeEach(module('bplclient.services'))
 
-  describe('getConnection', function () {
-    it('returns a promise', function () {
+  describe('getConnection', () => {
+    it('returns a promise', () => {
     })
   })
 })

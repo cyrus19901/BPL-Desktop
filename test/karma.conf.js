@@ -1,5 +1,7 @@
 'use strict'
 
+const path = require('path')
+
 module.exports = function (config) {
   config.set({
 
@@ -35,7 +37,7 @@ module.exports = function (config) {
       '../client/app/src/init.js',
       '../client/app/src/accounts/account.service.js',
       '../client/app/src/accounts/account.controller.js',
-      '../client/app/src/addons/pluginLoader.addon.js',
+      '../client/app/src/addons/plugin-loader.addon.js',
       '../client/app/src/components/**/*.js',
       '../client/app/src/filters/filters.js',
       '../client/app/src/services/**/*.js',
@@ -84,7 +86,7 @@ module.exports = function (config) {
 
     // test results reporter to use
     // possible values: 'dots', 'progress', 'junit', 'growl', 'coverage'
-    reporters: ['progress', 'coverage'],
+    reporters: ['progress'],
 
     // Continuous Integration mode
     // if true, it capture browsers, run tests and exit
@@ -92,7 +94,7 @@ module.exports = function (config) {
 
     client: {
       useIframe: false,
-      __filenameOverride: __dirname + '/../client/app/index.html'
+      __filenameOverride: path.join(__dirname, '/../client/app/index.html')
     },
 
     customLaunchers: {

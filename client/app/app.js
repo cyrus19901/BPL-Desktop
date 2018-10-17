@@ -1,7 +1,7 @@
 'use strict'
 
-var appearanceConfig = require('./config/appearance')
-var modules = [
+const appearanceConfig = require('./config/appearance')
+const modules = [
   'ngMaterial',
   'md.data.table',
   'gettext',
@@ -15,21 +15,21 @@ var modules = [
   'bplclient.constants'
 ]
 
-var app = angular.module('bplclient', modules)
+const app = angular.module('bplclient', modules)
 
-app.config(function ($mdIconProvider) {
+app.config(($mdIconProvider) => {
   $mdIconProvider
     .icon('menu', './assets/svg/menu.svg', 24)
     .icon('ledger', './assets/svg/ledger.svg', 24)
     .icon('qrcode', './assets/svg/qrcode.svg', 24)
 })
 
-app.config(function ($provide, $mdThemingProvider) {
-  var themes = appearanceConfig.themes
-  var themeNames = Object.keys(themes)
+app.config(($provide, $mdThemingProvider) => {
+  const themes = appearanceConfig.themes
+  const themeNames = Object.keys(themes)
 
-  themeNames.forEach(function (key) {
-    var theme = $mdThemingProvider.theme(key)
+  themeNames.forEach((key) => {
+    const theme = $mdThemingProvider.theme(key)
       .primaryPalette(themes[key].primary)
       .accentPalette(themes[key].accent)
       .warnPalette(themes[key].warn)
@@ -42,7 +42,7 @@ app.config(function ($provide, $mdThemingProvider) {
   $provide.value('$mdThemingProvider', $mdThemingProvider)
 })
 
-app.config(['$qProvider', function ($qProvider) {
+app.config(['$qProvider', ($qProvider) => {
   $qProvider.errorOnUnhandledRejections(false)
 }])
 

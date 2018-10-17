@@ -66,5 +66,5 @@ msgid "This account already has a second passphrase:"
 msgstr "Tento účet už má nastavený druhý bezpečnostný reťazec."
 
 msgid "you need at least 5 BPL to create a second passphrase"
-msgstr "potrebujete aspoň 5 ARKov, pre vytvorenie záložného reťazca"
+msgstr "potrebujete aspoň 5 BPLov, pre vytvorenie záložného reťazca"
 
