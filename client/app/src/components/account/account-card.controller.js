@@ -143,6 +143,8 @@
         toAddress: formData.toAddress,
         amount: parseInt((formData.amount * BPLTOSHI_UNIT).toFixed(0)),
         smartbridge: formData.smartbridge,
+        // Payload
+        // payload: formData.payload,
         masterpassphrase: formData.passphrase,
         secondpassphrase: formData.secondpassphrase
       })

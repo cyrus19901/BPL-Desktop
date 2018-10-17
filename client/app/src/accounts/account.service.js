@@ -286,7 +286,7 @@
         offset = 0
       }
       if (!limit) {
-        limit = 50
+        limit = 100
       }
       if (!store) {
         store = true
